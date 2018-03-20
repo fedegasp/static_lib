@@ -1,0 +1,20 @@
+// 
+//  Common.xcconfig
+//  
+//
+//  Created by Federico Gasperini on 28/10/16.
+//
+//
+
+//HEADER_SEARCH_PATHS = $(CONFIGURATION_BUILD_DIR)
+//CONFIGURATION_TEMP_DIR = $(CONFIGURATION_BUILD_DIR)
+
+CLIENT_PRJ_FOLDER = ../../../MASClientProject
+
+WORKSPACE="$SRCROOT/.."
+
+OTHER_LDFLAGS = -ObjC -lsqlite3 -lxml2 -lstdc++
+
+IPHONEOS_DEPLOYMENT_TARGET = 9.0
+
+ENABLE_BITCODE = NO

@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3CEC5071DD65A4B004F2192 /* MRAnimatingView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E42CAE1DC0E65D002CC394 /* MRAnimatingView.h */; };
+		B3CEC5081DD65A4B004F2192 /* lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E42CB11DC0E66F002CC394 /* lib.h */; };
+		B3E42CB01DC0E65D002CC394 /* MRAnimatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E42CAF1DC0E65D002CC394 /* MRAnimatingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3E42CA01DC0E615002CC394 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B3CEC5071DD65A4B004F2192 /* MRAnimatingView.h in CopyFiles */,
+				B3CEC5081DD65A4B004F2192 /* lib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B35EC6781DC26AAB00DAB537 /* Config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+		B35EC6791DC26AAB00DAB537 /* Config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.release.xcconfig; sourceTree = "<group>"; };
+		B3E42CA21DC0E615002CC394 /* libMRAnimatedView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRAnimatedView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E42CAE1DC0E65D002CC394 /* MRAnimatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRAnimatingView.h; sourceTree = "<group>"; };
+		B3E42CAF1DC0E65D002CC394 /* MRAnimatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRAnimatingView.m; sourceTree = "<group>"; };
+		B3E42CB11DC0E66F002CC394 /* lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E42C9F1DC0E615002CC394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3E42C991DC0E615002CC394 = {
+			isa = PBXGroup;
+			children = (
+				B35EC6781DC26AAB00DAB537 /* Config.debug.xcconfig */,
+				B35EC6791DC26AAB00DAB537 /* Config.release.xcconfig */,
+				B3E42CA41DC0E615002CC394 /* MRAnimatedView */,
+				B3E42CA31DC0E615002CC394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E42CA31DC0E615002CC394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E42CA21DC0E615002CC394 /* libMRAnimatedView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E42CA41DC0E615002CC394 /* MRAnimatedView */ = {
+			isa = PBXGroup;
+			children = (
+				B3E42CAE1DC0E65D002CC394 /* MRAnimatingView.h */,
+				B3E42CAF1DC0E65D002CC394 /* MRAnimatingView.m */,
+				B3E42CB11DC0E66F002CC394 /* lib.h */,
+			);
+			path = MRAnimatedView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E42CA11DC0E615002CC394 /* MRAnimatedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E42CAB1DC0E615002CC394 /* Build configuration list for PBXNativeTarget "MRAnimatedView" */;
+			buildPhases = (
+				B3E42C9E1DC0E615002CC394 /* Sources */,
+				B3E42C9F1DC0E615002CC394 /* Frameworks */,
+				B3E42CA01DC0E615002CC394 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRAnimatedView;
+			productName = MRAnimatedView;
+			productReference = B3E42CA21DC0E615002CC394 /* libMRAnimatedView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E42C9A1DC0E615002CC394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Accenture - MAS";
+				TargetAttributes = {
+					B3E42CA11DC0E615002CC394 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B3E42C9D1DC0E615002CC394 /* Build configuration list for PBXProject "MRAnimatedView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3E42C991DC0E615002CC394;
+			productRefGroup = B3E42CA31DC0E615002CC394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E42CA11DC0E615002CC394 /* MRAnimatedView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E42C9E1DC0E615002CC394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E42CB01DC0E65D002CC394 /* MRAnimatingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B3E42CA91DC0E615002CC394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3E42CAA1DC0E615002CC394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3E42CAC1DC0E615002CC394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EC6781DC26AAB00DAB537 /* Config.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /MRAnimatedView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /MRAnimatedView;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3E42CAD1DC0E615002CC394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EC6791DC26AAB00DAB537 /* Config.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /MRAnimatedView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /MRAnimatedView;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E42C9D1DC0E615002CC394 /* Build configuration list for PBXProject "MRAnimatedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E42CA91DC0E615002CC394 /* Debug */,
+				B3E42CAA1DC0E615002CC394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E42CAB1DC0E615002CC394 /* Build configuration list for PBXNativeTarget "MRAnimatedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E42CAC1DC0E615002CC394 /* Debug */,
+				B3E42CAD1DC0E615002CC394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3E42C9A1DC0E615002CC394 /* Project object */;
+}

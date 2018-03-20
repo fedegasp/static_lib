@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A39EA8C1ECF534C00BFFCB6 /* MRBaseGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39EA831ECF534C00BFFCB6 /* MRBaseGridLayout.m */; };
+		7A39EA8D1ECF534C00BFFCB6 /* MRCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39EA851ECF534C00BFFCB6 /* MRCalendarCell.m */; };
+		7A39EA8E1ECF534C00BFFCB6 /* MRCalendarFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39EA871ECF534C00BFFCB6 /* MRCalendarFlowLayout.m */; };
+		7A39EA8F1ECF534C00BFFCB6 /* MRGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39EA891ECF534C00BFFCB6 /* MRGridLayout.m */; };
+		7A39EA901ECF534C00BFFCB6 /* NSDate+manipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39EA8B1ECF534C00BFFCB6 /* NSDate+manipulation.m */; };
+		7A5EAA721EDDB7DF00246A57 /* MRGreedPartitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EAA6E1EDDB7DF00246A57 /* MRGreedPartitionLayout.m */; };
+		7A5EAA731EDDB7DF00246A57 /* MRLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5EAA711EDDB7DF00246A57 /* MRLayout.m */; };
+		7A5EAA741EDDB83F00246A57 /* MRLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A5EAA701EDDB7DF00246A57 /* MRLayout.h */; };
+		7A5EAA751EDDB83F00246A57 /* MRGreedyPartitionLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A5EAA6F1EDDB7DF00246A57 /* MRGreedyPartitionLayout.h */; };
+		7A6A1CD91ED2F31700E1502E /* MRInfiniteGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A1CD61ED2F31700E1502E /* MRInfiniteGridLayout.m */; };
+		7A6A1CDA1ED2F31700E1502E /* MRTransposedGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A1CD81ED2F31700E1502E /* MRTransposedGridLayout.m */; };
+		7A6A1CDB1ED2F36E00E1502E /* MRInfiniteGridLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A6A1CD51ED2F31700E1502E /* MRInfiniteGridLayout.h */; };
+		7A6A1CDC1ED2F36E00E1502E /* MRTransposedGridLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A6A1CD71ED2F31700E1502E /* MRTransposedGridLayout.h */; };
+		7A6A1CDD1ED2F36E00E1502E /* MRBaseGridLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A39EA821ECF534C00BFFCB6 /* MRBaseGridLayout.h */; };
+		7A6A1CDE1ED2F36E00E1502E /* MRCalendarCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A39EA841ECF534C00BFFCB6 /* MRCalendarCell.h */; };
+		7A6A1CDF1ED2F36E00E1502E /* MRCalendarFlowLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A39EA861ECF534C00BFFCB6 /* MRCalendarFlowLayout.h */; };
+		7A6A1CE01ED2F36E00E1502E /* MRGridLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A39EA881ECF534C00BFFCB6 /* MRGridLayout.h */; };
+		7A6A1CE11ED2F36E00E1502E /* NSDate+manipulation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A39EA8A1ECF534C00BFFCB6 /* NSDate+manipulation.h */; };
+		7A6A1CE21ED2F36E00E1502E /* lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A39EA811ECF534C00BFFCB6 /* lib.h */; };
+		7A7179151EF941F400DD8464 /* MRParallaxLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7179141EF941F400DD8464 /* MRParallaxLayoutAttributes.m */; };
+		7A7179161EF9420200DD8464 /* MRParallaxLayoutAttributes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A7179131EF941F400DD8464 /* MRParallaxLayoutAttributes.h */; };
+		7ADE46301EE05FD300CA9376 /* MRGridParallaxLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE462F1EE05FD300CA9376 /* MRGridParallaxLayout.m */; };
+		7ADE46311EE05FE600CA9376 /* MRGridParallaxLayout.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ADE462E1EE05FD300CA9376 /* MRGridParallaxLayout.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A6A1CE71ED2F41F00E1502E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6A1CE31ED2F41F00E1502E /* MRBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B37B88911DC2316A00BCF510;
+			remoteInfo = MRBase;
+		};
+		7ABE82F31ED336AE00AADAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6A1CE31ED2F41F00E1502E /* MRBase.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B37B88901DC2316A00BCF510;
+			remoteInfo = MRBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7AABA7651EA7C48F00A7C499 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7ADE46311EE05FE600CA9376 /* MRGridParallaxLayout.h in CopyFiles */,
+				7A5EAA741EDDB83F00246A57 /* MRLayout.h in CopyFiles */,
+				7A5EAA751EDDB83F00246A57 /* MRGreedyPartitionLayout.h in CopyFiles */,
+				7A6A1CDB1ED2F36E00E1502E /* MRInfiniteGridLayout.h in CopyFiles */,
+				7A6A1CDC1ED2F36E00E1502E /* MRTransposedGridLayout.h in CopyFiles */,
+				7A6A1CDD1ED2F36E00E1502E /* MRBaseGridLayout.h in CopyFiles */,
+				7A6A1CDE1ED2F36E00E1502E /* MRCalendarCell.h in CopyFiles */,
+				7A6A1CDF1ED2F36E00E1502E /* MRCalendarFlowLayout.h in CopyFiles */,
+				7A6A1CE01ED2F36E00E1502E /* MRGridLayout.h in CopyFiles */,
+				7A6A1CE11ED2F36E00E1502E /* NSDate+manipulation.h in CopyFiles */,
+				7A7179161EF9420200DD8464 /* MRParallaxLayoutAttributes.h in CopyFiles */,
+				7A6A1CE21ED2F36E00E1502E /* lib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A39EA811ECF534C00BFFCB6 /* lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+		7A39EA821ECF534C00BFFCB6 /* MRBaseGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBaseGridLayout.h; sourceTree = "<group>"; };
+		7A39EA831ECF534C00BFFCB6 /* MRBaseGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBaseGridLayout.m; sourceTree = "<group>"; };
+		7A39EA841ECF534C00BFFCB6 /* MRCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCalendarCell.h; sourceTree = "<group>"; };
+		7A39EA851ECF534C00BFFCB6 /* MRCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCalendarCell.m; sourceTree = "<group>"; };
+		7A39EA861ECF534C00BFFCB6 /* MRCalendarFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCalendarFlowLayout.h; sourceTree = "<group>"; };
+		7A39EA871ECF534C00BFFCB6 /* MRCalendarFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCalendarFlowLayout.m; sourceTree = "<group>"; };
+		7A39EA881ECF534C00BFFCB6 /* MRGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRGridLayout.h; sourceTree = "<group>"; };
+		7A39EA891ECF534C00BFFCB6 /* MRGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRGridLayout.m; sourceTree = "<group>"; };
+		7A39EA8A1ECF534C00BFFCB6 /* NSDate+manipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+manipulation.h"; sourceTree = "<group>"; };
+		7A39EA8B1ECF534C00BFFCB6 /* NSDate+manipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+manipulation.m"; sourceTree = "<group>"; };
+		7A5EAA6E1EDDB7DF00246A57 /* MRGreedPartitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRGreedPartitionLayout.m; sourceTree = "<group>"; };
+		7A5EAA6F1EDDB7DF00246A57 /* MRGreedyPartitionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRGreedyPartitionLayout.h; sourceTree = "<group>"; };
+		7A5EAA701EDDB7DF00246A57 /* MRLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRLayout.h; sourceTree = "<group>"; };
+		7A5EAA711EDDB7DF00246A57 /* MRLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRLayout.m; sourceTree = "<group>"; };
+		7A6A1CD51ED2F31700E1502E /* MRInfiniteGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRInfiniteGridLayout.h; sourceTree = "<group>"; };
+		7A6A1CD61ED2F31700E1502E /* MRInfiniteGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRInfiniteGridLayout.m; sourceTree = "<group>"; };
+		7A6A1CD71ED2F31700E1502E /* MRTransposedGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTransposedGridLayout.h; sourceTree = "<group>"; };
+		7A6A1CD81ED2F31700E1502E /* MRTransposedGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTransposedGridLayout.m; sourceTree = "<group>"; };
+		7A6A1CE31ED2F41F00E1502E /* MRBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRBase.xcodeproj; path = ../MRBase/MRBase.xcodeproj; sourceTree = "<group>"; };
+		7A7179131EF941F400DD8464 /* MRParallaxLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRParallaxLayoutAttributes.h; sourceTree = "<group>"; };
+		7A7179141EF941F400DD8464 /* MRParallaxLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRParallaxLayoutAttributes.m; sourceTree = "<group>"; };
+		7AABA7671EA7C48F00A7C499 /* libMRCustomFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRCustomFlowLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AABA77D1EA7C57000A7C499 /* Config.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+		7AABA77E1EA7C57000A7C499 /* Config.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.release.xcconfig; sourceTree = "<group>"; };
+		7ADE462E1EE05FD300CA9376 /* MRGridParallaxLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRGridParallaxLayout.h; sourceTree = "<group>"; };
+		7ADE462F1EE05FD300CA9376 /* MRGridParallaxLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRGridParallaxLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AABA7641EA7C48F00A7C499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A39EA801ECF534C00BFFCB6 /* MRCustomFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7A39EA811ECF534C00BFFCB6 /* lib.h */,
+				7A5EAA701EDDB7DF00246A57 /* MRLayout.h */,
+				7A5EAA711EDDB7DF00246A57 /* MRLayout.m */,
+				7A5EAA6F1EDDB7DF00246A57 /* MRGreedyPartitionLayout.h */,
+				7A5EAA6E1EDDB7DF00246A57 /* MRGreedPartitionLayout.m */,
+				7A6A1CD51ED2F31700E1502E /* MRInfiniteGridLayout.h */,
+				7A6A1CD61ED2F31700E1502E /* MRInfiniteGridLayout.m */,
+				7A6A1CD71ED2F31700E1502E /* MRTransposedGridLayout.h */,
+				7A6A1CD81ED2F31700E1502E /* MRTransposedGridLayout.m */,
+				7A39EA821ECF534C00BFFCB6 /* MRBaseGridLayout.h */,
+				7A39EA831ECF534C00BFFCB6 /* MRBaseGridLayout.m */,
+				7A39EA841ECF534C00BFFCB6 /* MRCalendarCell.h */,
+				7A39EA851ECF534C00BFFCB6 /* MRCalendarCell.m */,
+				7A39EA861ECF534C00BFFCB6 /* MRCalendarFlowLayout.h */,
+				7A39EA871ECF534C00BFFCB6 /* MRCalendarFlowLayout.m */,
+				7A39EA881ECF534C00BFFCB6 /* MRGridLayout.h */,
+				7A39EA891ECF534C00BFFCB6 /* MRGridLayout.m */,
+				7A7179131EF941F400DD8464 /* MRParallaxLayoutAttributes.h */,
+				7A7179141EF941F400DD8464 /* MRParallaxLayoutAttributes.m */,
+				7ADE462E1EE05FD300CA9376 /* MRGridParallaxLayout.h */,
+				7ADE462F1EE05FD300CA9376 /* MRGridParallaxLayout.m */,
+				7A39EA8A1ECF534C00BFFCB6 /* NSDate+manipulation.h */,
+				7A39EA8B1ECF534C00BFFCB6 /* NSDate+manipulation.m */,
+			);
+			path = MRCustomFlowLayout;
+			sourceTree = "<group>";
+		};
+		7A6A1CE41ED2F41F00E1502E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A1CE81ED2F41F00E1502E /* libMRBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AABA75E1EA7C48F00A7C499 = {
+			isa = PBXGroup;
+			children = (
+				7AABA77D1EA7C57000A7C499 /* Config.debug.xcconfig */,
+				7AABA77E1EA7C57000A7C499 /* Config.release.xcconfig */,
+				7A6A1CE31ED2F41F00E1502E /* MRBase.xcodeproj */,
+				7A39EA801ECF534C00BFFCB6 /* MRCustomFlowLayout */,
+				7AABA7681EA7C48F00A7C499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AABA7681EA7C48F00A7C499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AABA7671EA7C48F00A7C499 /* libMRCustomFlowLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AABA7661EA7C48F00A7C499 /* MRCustomFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AABA7701EA7C48F00A7C499 /* Build configuration list for PBXNativeTarget "MRCustomFlowLayout" */;
+			buildPhases = (
+				7AABA7631EA7C48F00A7C499 /* Sources */,
+				7AABA7641EA7C48F00A7C499 /* Frameworks */,
+				7AABA7651EA7C48F00A7C499 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABE82F41ED336AE00AADAB8 /* PBXTargetDependency */,
+			);
+			name = MRCustomFlowLayout;
+			productName = MRCalendarFlowLayout;
+			productReference = 7AABA7671EA7C48F00A7C499 /* libMRCustomFlowLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AABA75F1EA7C48F00A7C499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Accenture;
+				TargetAttributes = {
+					7AABA7661EA7C48F00A7C499 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A9QK5Z4XBH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7AABA7621EA7C48F00A7C499 /* Build configuration list for PBXProject "MRCustomFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7AABA75E1EA7C48F00A7C499;
+			productRefGroup = 7AABA7681EA7C48F00A7C499 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7A6A1CE41ED2F41F00E1502E /* Products */;
+					ProjectRef = 7A6A1CE31ED2F41F00E1502E /* MRBase.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7AABA7661EA7C48F00A7C499 /* MRCustomFlowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7A6A1CE81ED2F41F00E1502E /* libMRBase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRBase.a;
+			remoteRef = 7A6A1CE71ED2F41F00E1502E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AABA7631EA7C48F00A7C499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A39EA8F1ECF534C00BFFCB6 /* MRGridLayout.m in Sources */,
+				7A5EAA721EDDB7DF00246A57 /* MRGreedPartitionLayout.m in Sources */,
+				7A7179151EF941F400DD8464 /* MRParallaxLayoutAttributes.m in Sources */,
+				7A39EA8E1ECF534C00BFFCB6 /* MRCalendarFlowLayout.m in Sources */,
+				7ADE46301EE05FD300CA9376 /* MRGridParallaxLayout.m in Sources */,
+				7A5EAA731EDDB7DF00246A57 /* MRLayout.m in Sources */,
+				7A39EA901ECF534C00BFFCB6 /* NSDate+manipulation.m in Sources */,
+				7A6A1CDA1ED2F31700E1502E /* MRTransposedGridLayout.m in Sources */,
+				7A39EA8D1ECF534C00BFFCB6 /* MRCalendarCell.m in Sources */,
+				7A6A1CD91ED2F31700E1502E /* MRInfiniteGridLayout.m in Sources */,
+				7A39EA8C1ECF534C00BFFCB6 /* MRBaseGridLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ABE82F41ED336AE00AADAB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRBase;
+			targetProxy = 7ABE82F31ED336AE00AADAB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7AABA76E1EA7C48F00A7C499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AABA76F1EA7C48F00A7C499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AABA7711EA7C48F00A7C499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AABA77D1EA7C57000A7C499 /* Config.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9QK5Z4XBH;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7AABA7721EA7C48F00A7C499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AABA77E1EA7C57000A7C499 /* Config.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9QK5Z4XBH;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AABA7621EA7C48F00A7C499 /* Build configuration list for PBXProject "MRCustomFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AABA76E1EA7C48F00A7C499 /* Debug */,
+				7AABA76F1EA7C48F00A7C499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AABA7701EA7C48F00A7C499 /* Build configuration list for PBXNativeTarget "MRCustomFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AABA7711EA7C48F00A7C499 /* Debug */,
+				7AABA7721EA7C48F00A7C499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AABA75F1EA7C48F00A7C499 /* Project object */;
+}

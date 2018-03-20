@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		479A50E12052B037002DEF2C /* UIViewController+NavBarAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A50DD2052B036002DEF2C /* UIViewController+NavBarAdditions.m */; };
+		479A50E22052B037002DEF2C /* MRToolBarAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A50DE2052B037002DEF2C /* MRToolBarAdditions.m */; };
+		479A50E32052B280002DEF2C /* MRToolBarAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479A50E02052B037002DEF2C /* MRToolBarAdditions.h */; };
+		479A50E42052B280002DEF2C /* UIViewController+NavBarAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 479A50DF2052B037002DEF2C /* UIViewController+NavBarAdditions.h */; };
+		7A080D281F9A030A00BC3F35 /* MRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A080D241F9A030900BC3F35 /* MRTableViewController.m */; };
+		7A080D291F9A030A00BC3F35 /* MRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A080D261F9A030900BC3F35 /* MRNavigationViewController.m */; };
+		7A080D2A1F9A030A00BC3F35 /* MRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A080D271F9A030A00BC3F35 /* MRViewController.m */; };
+		7A080D2B1F9A050C00BC3F35 /* MRNavigationViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A080D251F9A030900BC3F35 /* MRNavigationViewController.h */; };
+		7A080D2C1F9A050C00BC3F35 /* MRTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A080D221F9A030900BC3F35 /* MRTableViewController.h */; };
+		7A080D2D1F9A050C00BC3F35 /* MRViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A080D231F9A030900BC3F35 /* MRViewController.h */; };
+		7A080D311F9A06EB00BC3F35 /* NSObject+scrollDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A080D2E1F9A06EB00BC3F35 /* NSObject+scrollDelegate.m */; };
+		7A080D361F9A091A00BC3F35 /* NSObject+scrollDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A080D2F1F9A06EB00BC3F35 /* NSObject+scrollDelegate.h */; };
+		7A3276C71EDEC46C000C3DC5 /* lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A3276961EDEBF18000C3DC5 /* lib.h */; };
+		7AA4D4941F9A34B5004D7238 /* MRNavBarAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ADD34D71F9A0B8D00B6AC86 /* MRNavBarAdditions.h */; };
+		7ADD34D61F9A095000B6AC86 /* MRScrollViewDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A080D301F9A06EB00BC3F35 /* MRScrollViewDelegate.h */; };
+		7ADD34D91F9A0B8D00B6AC86 /* MRNavBarAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD34D81F9A0B8D00B6AC86 /* MRNavBarAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A26F58F1F9A11A500E9EC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AEE84A51F9A111000836385 /* MRGraphics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B3E42D321DC0EA87002CC394;
+			remoteInfo = MRGraphics;
+		};
+		7A3276BD1EDEC32D000C3DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A3276B91EDEC32D000C3DC5 /* MRBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B37B88911DC2316A00BCF510;
+			remoteInfo = MRBase;
+		};
+		7A3276BF1EDEC332000C3DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A3276B91EDEC32D000C3DC5 /* MRBase.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B37B88901DC2316A00BCF510;
+			remoteInfo = MRBase;
+		};
+		7AEE84A91F9A111100836385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AEE84A51F9A111000836385 /* MRGraphics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B3E42D331DC0EA87002CC394;
+			remoteInfo = MRGraphics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3E42D311DC0EA87002CC394 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				479A50E32052B280002DEF2C /* MRToolBarAdditions.h in CopyFiles */,
+				479A50E42052B280002DEF2C /* UIViewController+NavBarAdditions.h in CopyFiles */,
+				7AA4D4941F9A34B5004D7238 /* MRNavBarAdditions.h in CopyFiles */,
+				7ADD34D61F9A095000B6AC86 /* MRScrollViewDelegate.h in CopyFiles */,
+				7A3276C71EDEC46C000C3DC5 /* lib.h in CopyFiles */,
+				7A080D2B1F9A050C00BC3F35 /* MRNavigationViewController.h in CopyFiles */,
+				7A080D2C1F9A050C00BC3F35 /* MRTableViewController.h in CopyFiles */,
+				7A080D361F9A091A00BC3F35 /* NSObject+scrollDelegate.h in CopyFiles */,
+				7A080D2D1F9A050C00BC3F35 /* MRViewController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		479A50DD2052B036002DEF2C /* UIViewController+NavBarAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBarAdditions.m"; sourceTree = "<group>"; };
+		479A50DE2052B037002DEF2C /* MRToolBarAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRToolBarAdditions.m; sourceTree = "<group>"; };
+		479A50DF2052B037002DEF2C /* UIViewController+NavBarAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBarAdditions.h"; sourceTree = "<group>"; };
+		479A50E02052B037002DEF2C /* MRToolBarAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRToolBarAdditions.h; sourceTree = "<group>"; };
+		7A080D221F9A030900BC3F35 /* MRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTableViewController.h; sourceTree = "<group>"; };
+		7A080D231F9A030900BC3F35 /* MRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRViewController.h; sourceTree = "<group>"; };
+		7A080D241F9A030900BC3F35 /* MRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTableViewController.m; sourceTree = "<group>"; };
+		7A080D251F9A030900BC3F35 /* MRNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationViewController.h; sourceTree = "<group>"; };
+		7A080D261F9A030900BC3F35 /* MRNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationViewController.m; sourceTree = "<group>"; };
+		7A080D271F9A030A00BC3F35 /* MRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRViewController.m; sourceTree = "<group>"; };
+		7A080D2E1F9A06EB00BC3F35 /* NSObject+scrollDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+scrollDelegate.m"; sourceTree = "<group>"; };
+		7A080D2F1F9A06EB00BC3F35 /* NSObject+scrollDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+scrollDelegate.h"; sourceTree = "<group>"; };
+		7A080D301F9A06EB00BC3F35 /* MRScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRScrollViewDelegate.h; sourceTree = "<group>"; };
+		7A3276961EDEBF18000C3DC5 /* lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+		7A3276B91EDEC32D000C3DC5 /* MRBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRBase.xcodeproj; path = ../MRBase/MRBase.xcodeproj; sourceTree = "<group>"; };
+		7ADD34D71F9A0B8D00B6AC86 /* MRNavBarAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRNavBarAdditions.h; sourceTree = "<group>"; };
+		7ADD34D81F9A0B8D00B6AC86 /* MRNavBarAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRNavBarAdditions.m; sourceTree = "<group>"; };
+		7AEE84A51F9A111000836385 /* MRGraphics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRGraphics.xcodeproj; path = ../MRGraphics/MRGraphics.xcodeproj; sourceTree = "<group>"; };
+		B35EC67C1DC26AC700DAB537 /* Config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+		B35EC67D1DC26AC700DAB537 /* Config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.release.xcconfig; sourceTree = "<group>"; };
+		B3E42D331DC0EA87002CC394 /* libMRNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRNavigationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E42D301DC0EA87002CC394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A3276BA1EDEC32D000C3DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A3276BE1EDEC32D000C3DC5 /* libMRBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AEE84A61F9A111000836385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AEE84AA1F9A111100836385 /* libMRGraphics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E42D2A1DC0EA87002CC394 = {
+			isa = PBXGroup;
+			children = (
+				B35EC67C1DC26AC700DAB537 /* Config.debug.xcconfig */,
+				B35EC67D1DC26AC700DAB537 /* Config.release.xcconfig */,
+				7A3276B91EDEC32D000C3DC5 /* MRBase.xcodeproj */,
+				7AEE84A51F9A111000836385 /* MRGraphics.xcodeproj */,
+				B3E42D351DC0EA87002CC394 /* MRNavigationController */,
+				B3E42D341DC0EA87002CC394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E42D341DC0EA87002CC394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E42D331DC0EA87002CC394 /* libMRNavigationController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E42D351DC0EA87002CC394 /* MRNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				479A50E02052B037002DEF2C /* MRToolBarAdditions.h */,
+				479A50DE2052B037002DEF2C /* MRToolBarAdditions.m */,
+				479A50DF2052B037002DEF2C /* UIViewController+NavBarAdditions.h */,
+				479A50DD2052B036002DEF2C /* UIViewController+NavBarAdditions.m */,
+				7A3276961EDEBF18000C3DC5 /* lib.h */,
+				7A080D251F9A030900BC3F35 /* MRNavigationViewController.h */,
+				7A080D261F9A030900BC3F35 /* MRNavigationViewController.m */,
+				7A080D221F9A030900BC3F35 /* MRTableViewController.h */,
+				7A080D241F9A030900BC3F35 /* MRTableViewController.m */,
+				7A080D231F9A030900BC3F35 /* MRViewController.h */,
+				7A080D271F9A030A00BC3F35 /* MRViewController.m */,
+				7A080D301F9A06EB00BC3F35 /* MRScrollViewDelegate.h */,
+				7A080D2F1F9A06EB00BC3F35 /* NSObject+scrollDelegate.h */,
+				7A080D2E1F9A06EB00BC3F35 /* NSObject+scrollDelegate.m */,
+				7ADD34D71F9A0B8D00B6AC86 /* MRNavBarAdditions.h */,
+				7ADD34D81F9A0B8D00B6AC86 /* MRNavBarAdditions.m */,
+			);
+			path = MRNavigationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E42D321DC0EA87002CC394 /* MRNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E42D3C1DC0EA87002CC394 /* Build configuration list for PBXNativeTarget "MRNavigationController" */;
+			buildPhases = (
+				B3E42D2F1DC0EA87002CC394 /* Sources */,
+				B3E42D301DC0EA87002CC394 /* Frameworks */,
+				B3E42D311DC0EA87002CC394 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A26F5901F9A11A500E9EC9A /* PBXTargetDependency */,
+				7A3276C01EDEC332000C3DC5 /* PBXTargetDependency */,
+			);
+			name = MRNavigationController;
+			productName = MRCircleLoader;
+			productReference = B3E42D331DC0EA87002CC394 /* libMRNavigationController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E42D2B1DC0EA87002CC394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Accenture - MAS";
+				TargetAttributes = {
+					B3E42D321DC0EA87002CC394 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B3E42D2E1DC0EA87002CC394 /* Build configuration list for PBXProject "MRNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3E42D2A1DC0EA87002CC394;
+			productRefGroup = B3E42D341DC0EA87002CC394 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7A3276BA1EDEC32D000C3DC5 /* Products */;
+					ProjectRef = 7A3276B91EDEC32D000C3DC5 /* MRBase.xcodeproj */;
+				},
+				{
+					ProductGroup = 7AEE84A61F9A111000836385 /* Products */;
+					ProjectRef = 7AEE84A51F9A111000836385 /* MRGraphics.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B3E42D321DC0EA87002CC394 /* MRNavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7A3276BE1EDEC32D000C3DC5 /* libMRBase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRBase.a;
+			remoteRef = 7A3276BD1EDEC32D000C3DC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AEE84AA1F9A111100836385 /* libMRGraphics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRGraphics.a;
+			remoteRef = 7AEE84A91F9A111100836385 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E42D2F1DC0EA87002CC394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479A50E22052B037002DEF2C /* MRToolBarAdditions.m in Sources */,
+				479A50E12052B037002DEF2C /* UIViewController+NavBarAdditions.m in Sources */,
+				7A080D281F9A030A00BC3F35 /* MRTableViewController.m in Sources */,
+				7ADD34D91F9A0B8D00B6AC86 /* MRNavBarAdditions.m in Sources */,
+				7A080D291F9A030A00BC3F35 /* MRNavigationViewController.m in Sources */,
+				7A080D311F9A06EB00BC3F35 /* NSObject+scrollDelegate.m in Sources */,
+				7A080D2A1F9A030A00BC3F35 /* MRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A26F5901F9A11A500E9EC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRGraphics;
+			targetProxy = 7A26F58F1F9A11A500E9EC9A /* PBXContainerItemProxy */;
+		};
+		7A3276C01EDEC332000C3DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRBase;
+			targetProxy = 7A3276BF1EDEC332000C3DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3E42D3A1DC0EA87002CC394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3E42D3B1DC0EA87002CC394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3E42D3D1DC0EA87002CC394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EC67C1DC26AC700DAB537 /* Config.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /MRGraphics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /MRGraphics;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3E42D3E1DC0EA87002CC394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EC67D1DC26AC700DAB537 /* Config.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /MRGraphics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /MRGraphics;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E42D2E1DC0EA87002CC394 /* Build configuration list for PBXProject "MRNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E42D3A1DC0EA87002CC394 /* Debug */,
+				B3E42D3B1DC0EA87002CC394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E42D3C1DC0EA87002CC394 /* Build configuration list for PBXNativeTarget "MRNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E42D3D1DC0EA87002CC394 /* Debug */,
+				B3E42D3E1DC0EA87002CC394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3E42D2B1DC0EA87002CC394 /* Project object */;
+}

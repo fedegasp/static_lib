@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A3BF44E1F73AD3D007DF251 /* lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A3BF44D1F73AD19007DF251 /* lib.h */; };
+		7A3BF44F1F73AD3D007DF251 /* MRFiniteStateMachine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AB02C931F72AA9E00D48950 /* MRFiniteStateMachine.h */; };
+		7A3BF4511F73AD4C007DF251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3BF4501F73AD4C007DF251 /* Foundation.framework */; };
+		7AB02C951F72AA9E00D48950 /* MRFiniteStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB02C941F72AA9E00D48950 /* MRFiniteStateMachine.m */; };
+		7AB02C981F72B0C100D48950 /* MRFSMState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB02C971F72B0C100D48950 /* MRFSMState.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B37B888F1DC2316A00BCF510 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7A3BF44E1F73AD3D007DF251 /* lib.h in CopyFiles */,
+				7A3BF44F1F73AD3D007DF251 /* MRFiniteStateMachine.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A3BF44D1F73AD19007DF251 /* lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+		7A3BF4501F73AD4C007DF251 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AB02C931F72AA9E00D48950 /* MRFiniteStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRFiniteStateMachine.h; sourceTree = "<group>"; };
+		7AB02C941F72AA9E00D48950 /* MRFiniteStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRFiniteStateMachine.m; sourceTree = "<group>"; };
+		7AB02C961F72B0C100D48950 /* MRFSMState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRFSMState.h; sourceTree = "<group>"; };
+		7AB02C971F72B0C100D48950 /* MRFSMState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRFSMState.m; sourceTree = "<group>"; };
+		7AFFB5611F6C252600D92229 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B37B88911DC2316A00BCF510 /* libMRFiniteStateMachine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRFiniteStateMachine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B390C8E21DC255990020C032 /* Config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.release.xcconfig; sourceTree = SOURCE_ROOT; };
+		B390C8E31DC255EE0020C032 /* Config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B37B888E1DC2316A00BCF510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3BF4511F73AD4C007DF251 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AB02C921F72AA5900D48950 /* MRFiniteStateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				7A3BF44D1F73AD19007DF251 /* lib.h */,
+				7AB02C931F72AA9E00D48950 /* MRFiniteStateMachine.h */,
+				7AB02C941F72AA9E00D48950 /* MRFiniteStateMachine.m */,
+				7AB02C961F72B0C100D48950 /* MRFSMState.h */,
+				7AB02C971F72B0C100D48950 /* MRFSMState.m */,
+			);
+			path = MRFiniteStateMachine;
+			sourceTree = "<group>";
+		};
+		7AFFB5601F6C252600D92229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A3BF4501F73AD4C007DF251 /* Foundation.framework */,
+				7AFFB5611F6C252600D92229 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B37B88881DC2316A00BCF510 = {
+			isa = PBXGroup;
+			children = (
+				B390C8E31DC255EE0020C032 /* Config.debug.xcconfig */,
+				B390C8E21DC255990020C032 /* Config.release.xcconfig */,
+				7AB02C921F72AA5900D48950 /* MRFiniteStateMachine */,
+				B37B88921DC2316A00BCF510 /* Products */,
+				7AFFB5601F6C252600D92229 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B37B88921DC2316A00BCF510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B37B88911DC2316A00BCF510 /* libMRFiniteStateMachine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B37B88901DC2316A00BCF510 /* MRFiniteStateMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37B889A1DC2316A00BCF510 /* Build configuration list for PBXNativeTarget "MRFiniteStateMachine" */;
+			buildPhases = (
+				B37B888D1DC2316A00BCF510 /* Sources */,
+				B37B888E1DC2316A00BCF510 /* Frameworks */,
+				B37B888F1DC2316A00BCF510 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRFiniteStateMachine;
+			productName = MRBase;
+			productReference = B37B88911DC2316A00BCF510 /* libMRFiniteStateMachine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B37B88891DC2316A00BCF510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Accenture - MAS";
+				TargetAttributes = {
+					B37B88901DC2316A00BCF510 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B37B888C1DC2316A00BCF510 /* Build configuration list for PBXProject "MRFiniteStateMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B37B88881DC2316A00BCF510;
+			productRefGroup = B37B88921DC2316A00BCF510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37B88901DC2316A00BCF510 /* MRFiniteStateMachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B37B888D1DC2316A00BCF510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB02C951F72AA9E00D48950 /* MRFiniteStateMachine.m in Sources */,
+				7AB02C981F72B0C100D48950 /* MRFSMState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B37B88981DC2316A00BCF510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B37B88991DC2316A00BCF510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B37B889B1DC2316A00BCF510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B390C8E31DC255EE0020C032 /* Config.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B37B889C1DC2316A00BCF510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B390C8E21DC255990020C032 /* Config.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B37B888C1DC2316A00BCF510 /* Build configuration list for PBXProject "MRFiniteStateMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37B88981DC2316A00BCF510 /* Debug */,
+				B37B88991DC2316A00BCF510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37B889A1DC2316A00BCF510 /* Build configuration list for PBXNativeTarget "MRFiniteStateMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37B889B1DC2316A00BCF510 /* Debug */,
+				B37B889C1DC2316A00BCF510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B37B88891DC2316A00BCF510 /* Project object */;
+}

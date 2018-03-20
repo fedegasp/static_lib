@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A4B81001FBC828400397878 /* StubServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B80FF1FBC828400397878 /* StubServer.m */; };
+		7A4B81011FBC8DBA00397878 /* StubServer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A4B80FE1FBC828400397878 /* StubServer.h */; };
+		7AC7C0431F31C8E800EDE46F /* UIResponder+ikActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7C0421F31C8E800EDE46F /* UIResponder+ikActivity.m */; };
+		7AE632A91F31D00F006BE393 /* UIResponder+ikActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AC7C0411F31C8E800EDE46F /* UIResponder+ikActivity.h */; };
+		B3CEC5541DD65B3C004F2192 /* ErrorCenter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DBB4951DC34A8D00407651 /* ErrorCenter.h */; };
+		B3CEC5551DD65B3C004F2192 /* NSError+ikFacility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DBB4911DC34A7300407651 /* NSError+ikFacility.h */; };
+		B3CEC5561DD65B3C004F2192 /* BackEndInterface.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DBB4511DC3389E00407651 /* BackEndInterface.h */; };
+		B3CEC5571DD65B3C004F2192 /* IKEnvironment.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DBB4531DC3389E00407651 /* IKEnvironment.h */; };
+		B3CEC5581DD65B3C004F2192 /* IKImport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DBB4551DC3389E00407651 /* IKImport.h */; };
+		B3CEC5591DD65B3C004F2192 /* IKRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DBB4561DC3389E00407651 /* IKRequest.h */; };
+		B3CEC55A1DD65B3C004F2192 /* IKResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DBB4581DC3389E00407651 /* IKResponse.h */; };
+		B3CEC55D1DD65B3C004F2192 /* lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3DBB47B1DC338C800407651 /* lib.h */; };
+		B3DBB4681DC3389E00407651 /* BackEndInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DBB4521DC3389E00407651 /* BackEndInterface.m */; };
+		B3DBB46A1DC3389E00407651 /* IKEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DBB4541DC3389E00407651 /* IKEnvironment.m */; };
+		B3DBB46D1DC3389E00407651 /* IKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DBB4571DC3389E00407651 /* IKRequest.m */; };
+		B3DBB46F1DC3389E00407651 /* IKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DBB4591DC3389E00407651 /* IKResponse.m */; };
+		B3DBB4941DC34A7300407651 /* NSError+ikFacility.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DBB4921DC34A7300407651 /* NSError+ikFacility.m */; };
+		B3DBB4981DC34A8D00407651 /* ErrorCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DBB4961DC34A8D00407651 /* ErrorCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF0A3A41FBCA4F800F97380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF0A3A01FBCA4F800F97380 /* MRWebServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B37B87E91DC1E7F300BCF510;
+			remoteInfo = MRWebServer;
+		};
+		7AF0A3A61FBCA53600F97380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AF0A3A01FBCA4F800F97380 /* MRWebServer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B37B87E81DC1E7F300BCF510;
+			remoteInfo = MRWebServer;
+		};
+		B3DBB4A61DC352B700407651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3DBB4A21DC352B700407651 /* MRBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B37B88911DC2316A00BCF510;
+			remoteInfo = MRBase;
+		};
+		B3DBB4A81DC352C200407651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3DBB4A21DC352B700407651 /* MRBase.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B37B88901DC2316A00BCF510;
+			remoteInfo = MRBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3DBB4191DC3381700407651 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7AE632A91F31D00F006BE393 /* UIResponder+ikActivity.h in CopyFiles */,
+				B3CEC5541DD65B3C004F2192 /* ErrorCenter.h in CopyFiles */,
+				B3CEC5551DD65B3C004F2192 /* NSError+ikFacility.h in CopyFiles */,
+				B3CEC5561DD65B3C004F2192 /* BackEndInterface.h in CopyFiles */,
+				B3CEC5571DD65B3C004F2192 /* IKEnvironment.h in CopyFiles */,
+				B3CEC5581DD65B3C004F2192 /* IKImport.h in CopyFiles */,
+				B3CEC5591DD65B3C004F2192 /* IKRequest.h in CopyFiles */,
+				B3CEC55A1DD65B3C004F2192 /* IKResponse.h in CopyFiles */,
+				7A4B81011FBC8DBA00397878 /* StubServer.h in CopyFiles */,
+				B3CEC55D1DD65B3C004F2192 /* lib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A4B80FE1FBC828400397878 /* StubServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StubServer.h; sourceTree = "<group>"; };
+		7A4B80FF1FBC828400397878 /* StubServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StubServer.m; sourceTree = "<group>"; };
+		7AC7C0411F31C8E800EDE46F /* UIResponder+ikActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+ikActivity.h"; sourceTree = "<group>"; };
+		7AC7C0421F31C8E800EDE46F /* UIResponder+ikActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+ikActivity.m"; sourceTree = "<group>"; };
+		7AF0A3A01FBCA4F800F97380 /* MRWebServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRWebServer.xcodeproj; path = ../MRWebServer/MRWebServer.xcodeproj; sourceTree = "<group>"; };
+		B3DBB41B1DC3381700407651 /* libMRBackEnd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRBackEnd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DBB4511DC3389E00407651 /* BackEndInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackEndInterface.h; sourceTree = "<group>"; };
+		B3DBB4521DC3389E00407651 /* BackEndInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackEndInterface.m; sourceTree = "<group>"; };
+		B3DBB4531DC3389E00407651 /* IKEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKEnvironment.h; sourceTree = "<group>"; };
+		B3DBB4541DC3389E00407651 /* IKEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKEnvironment.m; sourceTree = "<group>"; };
+		B3DBB4551DC3389E00407651 /* IKImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKImport.h; sourceTree = "<group>"; };
+		B3DBB4561DC3389E00407651 /* IKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKRequest.h; sourceTree = "<group>"; };
+		B3DBB4571DC3389E00407651 /* IKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKRequest.m; sourceTree = "<group>"; };
+		B3DBB4581DC3389E00407651 /* IKResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKResponse.h; sourceTree = "<group>"; };
+		B3DBB4591DC3389E00407651 /* IKResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKResponse.m; sourceTree = "<group>"; };
+		B3DBB47B1DC338C800407651 /* lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+		B3DBB48D1DC347F200407651 /* Config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+		B3DBB48E1DC347F200407651 /* Config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.release.xcconfig; sourceTree = "<group>"; };
+		B3DBB4911DC34A7300407651 /* NSError+ikFacility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+ikFacility.h"; sourceTree = "<group>"; };
+		B3DBB4921DC34A7300407651 /* NSError+ikFacility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+ikFacility.m"; sourceTree = "<group>"; };
+		B3DBB4951DC34A8D00407651 /* ErrorCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCenter.h; sourceTree = "<group>"; };
+		B3DBB4961DC34A8D00407651 /* ErrorCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorCenter.m; sourceTree = "<group>"; };
+		B3DBB4A21DC352B700407651 /* MRBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRBase.xcodeproj; path = ../MRBase/MRBase.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3DBB4181DC3381700407651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476A51F020518AE50046DCD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AF0A3A11FBCA4F800F97380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0A3A51FBCA4F800F97380 /* libMRWebServer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3DBB4121DC3381700407651 = {
+			isa = PBXGroup;
+			children = (
+				B3DBB4A21DC352B700407651 /* MRBase.xcodeproj */,
+				7AF0A3A01FBCA4F800F97380 /* MRWebServer.xcodeproj */,
+				B3DBB48D1DC347F200407651 /* Config.debug.xcconfig */,
+				B3DBB48E1DC347F200407651 /* Config.release.xcconfig */,
+				B3DBB41D1DC3381700407651 /* MRBackEnd */,
+				B3DBB41C1DC3381700407651 /* Products */,
+				476A51F020518AE50046DCD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3DBB41C1DC3381700407651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3DBB41B1DC3381700407651 /* libMRBackEnd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3DBB41D1DC3381700407651 /* MRBackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				B3DBB4501DC3389E00407651 /* Implementation */,
+				B3DBB4621DC3389E00407651 /* web-sever */,
+				B3DBB47B1DC338C800407651 /* lib.h */,
+			);
+			path = MRBackEnd;
+			sourceTree = "<group>";
+		};
+		B3DBB4501DC3389E00407651 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				7AC7C0411F31C8E800EDE46F /* UIResponder+ikActivity.h */,
+				7AC7C0421F31C8E800EDE46F /* UIResponder+ikActivity.m */,
+				B3DBB4951DC34A8D00407651 /* ErrorCenter.h */,
+				B3DBB4961DC34A8D00407651 /* ErrorCenter.m */,
+				B3DBB4911DC34A7300407651 /* NSError+ikFacility.h */,
+				B3DBB4921DC34A7300407651 /* NSError+ikFacility.m */,
+				B3DBB4511DC3389E00407651 /* BackEndInterface.h */,
+				B3DBB4521DC3389E00407651 /* BackEndInterface.m */,
+				B3DBB4531DC3389E00407651 /* IKEnvironment.h */,
+				B3DBB4541DC3389E00407651 /* IKEnvironment.m */,
+				B3DBB4551DC3389E00407651 /* IKImport.h */,
+				B3DBB4561DC3389E00407651 /* IKRequest.h */,
+				B3DBB4571DC3389E00407651 /* IKRequest.m */,
+				B3DBB4581DC3389E00407651 /* IKResponse.h */,
+				B3DBB4591DC3389E00407651 /* IKResponse.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		B3DBB4621DC3389E00407651 /* web-sever */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B80FE1FBC828400397878 /* StubServer.h */,
+				7A4B80FF1FBC828400397878 /* StubServer.m */,
+			);
+			path = "web-sever";
+			sourceTree = "<group>";
+		};
+		B3DBB4A31DC352B700407651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3DBB4A71DC352B700407651 /* libMRBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3DBB41A1DC3381700407651 /* MRBackEnd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DBB4241DC3381700407651 /* Build configuration list for PBXNativeTarget "MRBackEnd" */;
+			buildPhases = (
+				B3DBB4171DC3381700407651 /* Sources */,
+				B3DBB4181DC3381700407651 /* Frameworks */,
+				B3DBB4191DC3381700407651 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AF0A3A71FBCA53600F97380 /* PBXTargetDependency */,
+				B3DBB4A91DC352C200407651 /* PBXTargetDependency */,
+			);
+			name = MRBackEnd;
+			productName = MRBackEnd;
+			productReference = B3DBB41B1DC3381700407651 /* libMRBackEnd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3DBB4131DC3381700407651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Accenture - MAS";
+				TargetAttributes = {
+					B3DBB41A1DC3381700407651 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B3DBB4161DC3381700407651 /* Build configuration list for PBXProject "MRBackEnd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3DBB4121DC3381700407651;
+			productRefGroup = B3DBB41C1DC3381700407651 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B3DBB4A31DC352B700407651 /* Products */;
+					ProjectRef = B3DBB4A21DC352B700407651 /* MRBase.xcodeproj */;
+				},
+				{
+					ProductGroup = 7AF0A3A11FBCA4F800F97380 /* Products */;
+					ProjectRef = 7AF0A3A01FBCA4F800F97380 /* MRWebServer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B3DBB41A1DC3381700407651 /* MRBackEnd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7AF0A3A51FBCA4F800F97380 /* libMRWebServer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRWebServer.a;
+			remoteRef = 7AF0A3A41FBCA4F800F97380 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3DBB4A71DC352B700407651 /* libMRBase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRBase.a;
+			remoteRef = B3DBB4A61DC352B700407651 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3DBB4171DC3381700407651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4B81001FBC828400397878 /* StubServer.m in Sources */,
+				B3DBB46D1DC3389E00407651 /* IKRequest.m in Sources */,
+				B3DBB4981DC34A8D00407651 /* ErrorCenter.m in Sources */,
+				B3DBB4681DC3389E00407651 /* BackEndInterface.m in Sources */,
+				7AC7C0431F31C8E800EDE46F /* UIResponder+ikActivity.m in Sources */,
+				B3DBB4941DC34A7300407651 /* NSError+ikFacility.m in Sources */,
+				B3DBB46F1DC3389E00407651 /* IKResponse.m in Sources */,
+				B3DBB46A1DC3389E00407651 /* IKEnvironment.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AF0A3A71FBCA53600F97380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRWebServer;
+			targetProxy = 7AF0A3A61FBCA53600F97380 /* PBXContainerItemProxy */;
+		};
+		B3DBB4A91DC352C200407651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRBase;
+			targetProxy = B3DBB4A81DC352C200407651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3DBB4221DC3381700407651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3DBB4231DC3381700407651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3DBB4251DC3381700407651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DBB48D1DC347F200407651 /* Config.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = MRBackEnd;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3DBB4261DC3381700407651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DBB48E1DC347F200407651 /* Config.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = MRBackEnd;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3DBB4161DC3381700407651 /* Build configuration list for PBXProject "MRBackEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DBB4221DC3381700407651 /* Debug */,
+				B3DBB4231DC3381700407651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DBB4241DC3381700407651 /* Build configuration list for PBXNativeTarget "MRBackEnd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DBB4251DC3381700407651 /* Debug */,
+				B3DBB4261DC3381700407651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3DBB4131DC3381700407651 /* Project object */;
+}
