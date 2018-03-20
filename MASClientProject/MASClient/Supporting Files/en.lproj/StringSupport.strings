@@ -1,0 +1,32 @@
+/* 
+  StringSupport.strings
+  MASClient
+ 
+  Created by Ludovica Acciai on 22/08/17.
+  Copyright © 2017 Accenture - MAS. All rights reserved.
+*/
+
+// File delle stringhe non codificate dal file excel
+
+
+"Domenica" = "Sunday";
+"Lunedì" = "Monday";
+"Martedì" = "Tuesday";
+"Mercoledì" = "Wednsday";
+"Giovedì" = "Thursday";
+"Venerdì" = "Friday";
+"Sabato" = "Saturday";
+
+"Dom" = "Sun";
+"Lun" = "Mon";
+"Mar" = "Tue";
+"Mer" = "Wed";
+"Giov" = "Thu";
+"Ven" = "Fri";
+"Sab" = "Sat";
+
+"Mai" = "Never";
+
+"minuto" = "minute";
+"minuti" = "minutes";
+"In arrivo" = "Arriving";

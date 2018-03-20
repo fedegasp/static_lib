@@ -1,0 +1,69 @@
+{
+   "services":[
+      {
+         "object-class":"Favourite",
+         "base-class":"BERequest",
+         "mapping":{
+            "node":"node"
+         },
+         "methods":[
+            {
+               "name":"Retrieve",
+               "parameters":[
+               ],
+               "constants":[
+
+               ],
+               "environment":"BE_GET",
+               "endpoint":"/favorite",
+               "response":"FavouriteListResponse"
+            },
+            {
+               "name":"Add",
+               "parameters":[
+                  {
+                     "name":"node",
+                     "type":"string",
+                     "mandatory":true
+                  }
+               ],
+               "constants":[
+
+               ],
+               "environment":"BE",
+               "endpoint":"/favorite",
+               "response":"BEResponse"
+            },
+            {
+               "name":"Remove",
+               "parameters":[
+                  {
+                     "name":"node",
+                     "type":"string",
+                     "mandatory":true
+                  }
+               ],
+               "constants":[
+
+               ],
+               "environment":"BE_DELETE",
+               "endpoint":"/favorite",
+               "response":"BEResponse"
+            }
+         ]
+      }
+   ],
+   "responses":[
+      {
+         "object-class":"FavouriteListResponse",
+         "base-class":"BEResponse",
+         "mapping":{
+            "data":{
+               "property":"favourites",
+               "isArray": true,
+               "object-class":"Poi"
+            }
+         }
+      }
+   ]
+}

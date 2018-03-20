@@ -1,0 +1,534 @@
+{
+	"services": [{
+		"object-class": "Tickets",
+		"base-class": "BERequest",
+		"mapping": {
+			"poiIds": "poi",
+			"customer": "customer",
+			"prenotationId": "idPrenotation",
+			"id": "id",
+			"price": "price",
+			"pois": "pois",
+			"mail": "mail",
+			"omnia": "omnia",
+         "ordersResponseItem": "tickets",
+         "reservationDate": "reservationDate",
+         "reservationTime": "reservationTime",
+         "groupName": "groupName"
+		},
+		"methods": [{
+				"name": "GetTickets",
+				"parameters": [{
+					"name": "poiIds",
+					"type": "array",
+					"mandatory": true
+				}],
+				"constants": [],
+				"environment": "BE_GET",
+				"endpoint": "/ticket",
+				"response": "TicketResponse"
+			},
+			{
+				"name": "GetOnmiaTickets",
+				"parameters": [{
+					"name": "omnia",
+					"type": "array",
+					"mandatory": true
+				}],
+				"constants": [],
+				"environment": "BE",
+				"endpoint": "/omnia/ticket",
+				"response": "TicketResponse"
+			},
+			{
+				"name": "BookTickets",
+				"parameters": [{
+					"name": "ordersResponseItem",
+					"type": "OrdersResponseItem*",
+					"mandatory": true
+				}],
+				"constants": [],
+				"environment": "BE",
+				"endpoint": "/ticket/book",
+				"response": "TicketResponse"
+			},
+			{
+				"name": "GetOnmiaTypes",
+				"parameters": [],
+				"constants": [],
+				"environment": "BE_GET",
+				"endpoint": "/omnia/type",
+				"response": "OmniaTypeResponse"
+			},
+			{
+				"name": "GetOpenbusTickets",
+				"parameters": [],
+				"constants": [],
+				"environment": "BE_GET",
+				"endpoint": "/openbus/ticket",
+				"response": "OpenbusTicketResponse"
+			},
+			{
+				"name": "HoldTickets",
+				"parameters": [{
+						"name": "customer",
+						"type": "BEUser *",
+						"mandatory": true
+					},
+					{
+						"name": "prenotationId",
+						"type": "string",
+						"mandatory": false
+					},
+					{
+						"name": "price",
+						"type": "numeric",
+						"mandatory": false
+					},
+					{
+						"name": "pois",
+						"type": "NSArray *",
+						"mandatory": true
+					}
+				],
+				"constants": [],
+				"environment": "BE",
+				"endpoint": "/ticket/hold",
+				"response": "TicketHoldResponse"
+			},
+			{
+				"name": "HoldOmniaTickets",
+				"parameters": [{
+						"name": "customer",
+						"type": "BEUser *",
+						"mandatory": true
+					},
+					{
+						"name": "prenotationId",
+						"type": "string",
+						"mandatory": false
+					},
+					{
+						"name": "price",
+						"type": "numeric",
+						"mandatory": false
+					},
+					{
+						"name": "omnia",
+						"type": "NSArray *",
+						"mandatory": true
+					}
+				],
+				"constants": [],
+				"environment": "BE",
+				"endpoint": "/ticket/hold",
+				"response": "TicketHoldResponse"
+			},
+			{
+				"name": "StartPayment",
+				"parameters": [{
+						"name": "id",
+						"type": "string",
+						"mandatory": true
+					},
+					{
+						"name": "mail",
+						"type": "string",
+						"mandatory": true
+					}
+				],
+				"constants": [],
+				"environment": "BE_GET",
+				"endpoint": "/payment/start",
+				"response": "TicketResponse"
+			},
+			{
+				"name": "GetReservations",
+				"parameters": [{
+					"name": "mail",
+					"type": "string",
+					"mandatory": true
+				}],
+				"constants": [],
+				"environment": "BE_GET",
+				"endpoint": "/reservation",
+				"response": "ReservationResponse"
+			}
+		]
+	}],
+	"responses": [{
+			"object-class": "TicketResponse",
+			"base-class": "BEResponse",
+			"mapping": {
+				"data": {
+					"property": "items",
+					"isArray": true,
+					"object-class": "TicketResponseItem"
+				}
+			}
+		},
+		{
+			"object-class": "OpenbusTicketResponse",
+			"base-class": "BEResponse",
+			"mapping": {
+				"data": {
+					"property": "tickets",
+					"isArray": true,
+					"object-class": "Ticket"
+				}
+			}
+		},
+		{
+			"object-class": "TicketResponseItem",
+			"base-class": "BEResponse",
+			"mapping": {
+				"poiId": {
+					"property": "poiId",
+					"type": "string"
+				},
+				"poiTitle": {
+					"property": "poiName",
+					"type": "string"
+				},
+				"tickets": {
+					"property": "tickets",
+					"isArray": true,
+					"object-class": "Ticket"
+				}
+			}
+		},
+		{
+			"object-class": "Ticket",
+			"base-class": "BEResponse",
+			"mapping": {
+				"id": {
+					"property": "identifier",
+					"type": "string"
+				},
+				"title": {
+					"property": "title",
+					"type": "string"
+				},
+				"groupName": {
+					"property": "groupName",
+					"type": "string"
+				},
+				"description": {
+					"property": "description",
+					"type": "string"
+				},
+				"price": {
+					"property": "price",
+					"type": "numeric"
+				},
+				"quantity": {
+					"property": "omniaQuantity",
+					"type": "numeric"
+				},
+				"discount": {
+					"property": "discount",
+					"type": "numeric"
+				},
+				"isBookingRequired": {
+					"property": "isBookingRequired",
+					"type": "numeric"
+				},
+				"supplementList": {
+					"object-class": "Supplement",
+					"property": "supplements",
+					"isArray": true
+				}
+			}
+		},
+		{
+			"object-class": "Supplement",
+			"base-class": "BEResponse",
+			"mapping": {
+				"id": {
+					"property": "identifier",
+					"type": "string"
+				},
+				"title": {
+					"property": "title",
+					"type": "string"
+				},
+				"description": {
+					"property": "description",
+					"type": "string"
+				},
+				"price": {
+					"property": "price",
+					"type": "numeric"
+				},
+				"discount": {
+					"property": "discount",
+					"type": "numeric"
+				},
+				"isBookingRequired": {
+					"property": "isBookingRequired",
+					"type": "numeric"
+				}
+			}
+		},
+		{
+			"object-class": "TicketHoldResponse",
+			"base-class": "BEResponse",
+			"mapping": {
+				"data.reservation.id": {
+					"property": "identifier",
+					"type": "string"
+				},
+				"data.reservation.mail": {
+					"property": "mail",
+					"type": "string"
+				},
+				"data.reservation.price": {
+					"property": "price",
+					"type": "numeric"
+				},
+				"data.reservation.creation": {
+					"property": "creation",
+					"type": "string"
+				},
+				"data.reservation.details": {
+					"property": "details",
+					"isArray": true,
+					"object-class": "TicketHoldPoi"
+				},
+				"data.reservation.omniaDetails.omnia": {
+					"property": "omniaDetails",
+					"isArray": true,
+                    "object-class": "OmniaCard"
+				},
+				"data.registeredUser": {
+					"property": "user",
+					"object-class": "BEUser"
+				}
+			}
+		},
+		{
+			"object-class": "ReservationItem",
+			"base-class": "BEResponse",
+			"mapping": {
+				"id": {
+					"property": "identifier",
+					"type": "string"
+				},
+				"mail": {
+					"property": "mail",
+					"type": "string"
+				},
+				"price": {
+					"property": "price",
+					"type": "numeric"
+				},
+				"creation": {
+					"property": "creation",
+					"type": "date"
+				},
+				"details": {
+					"property": "details",
+					"isArray": true,
+					"object-class": "TicketHoldPoi"
+				}
+			}
+		},
+		{
+			"object-class": "TicketHoldPoi",
+			"base-class": "BEResponse",
+			"mapping": {
+				"poiId": {
+					"property": "poiId",
+					"type": "string"
+				},
+				"tickets": {
+					"property": "tickets",
+					"isArray": true,
+					"object-class": "TicketHoldTicket"
+				},
+				"reservationDate": {
+					"property": "reservationDate",
+					"type": "string"
+				},
+				"reservationTime": {
+					"property": "reservationTime",
+					"type": "string"
+				},
+				"groupName": {
+					"property": "groupName",
+					"type": "string"
+				},
+				"poi": {
+					"property": "poi",
+					"type": "id",
+					"object-class": "Poi"
+				}
+			}
+		},
+		{
+			"object-class": "TicketHoldTicket",
+			"base-class": "BEResponse",
+			"mapping": {
+				"id": {
+					"property": "identifier",
+					"type": "string"
+				},
+				"quantity": {
+					"property": "quantity",
+					"type": "string"
+				},
+				"ticket": {
+					"property": "ticket",
+					"type": "id",
+					"object-class": "Ticket"
+				},
+				"supplements": {
+					"property": "supplements",
+					"isArray": true,
+					"object-class": "TicketHoldSupplement"
+				}
+			}
+		},
+		{
+			"object-class": "TicketHoldSupplement",
+			"base-class": "BEResponse",
+			"mapping": {
+				"id": {
+					"property": "identifier",
+					"type": "string"
+				},
+				"quantity": {
+					"property": "quantity",
+					"type": "string"
+				},
+				"supplement": {
+					"property": "supplement",
+					"type": "id",
+					"object-class": "Ticket"
+				}
+			}
+		},
+		{
+			"object-class": "ReservationResponse",
+			"base-class": "BEResponse",
+			"mapping": {
+				"data": {
+					"property": "reservations",
+					"isArray": true,
+					"object-class": "ReservationItem"
+				}
+			}
+		},
+		{
+			"object-class": "OmniaTypeResponse",
+			"base-class": "BEResponse",
+			"mapping": {
+				"data": {
+					"property": "types",
+					"isArray": true,
+					"object-class": "OmniaType"
+				}
+			}
+		},
+		{
+			"object-class": "OmniaType",
+			"base-class": "BEResponse",
+			"mapping": {
+				"title": {
+					"property": "title",
+					"type": "string"
+				},
+				"description": {
+					"property": "descriptionText",
+					"type": "string"
+				},
+				"images": {
+					"property": "images",
+					"isArray": true,
+                    "object-class": "NSURL",
+                    "no-import": true
+				},
+				"tickets": {
+					"property": "cards",
+					"isArray": true,
+					"object-class": "OmniaCard"
+				}
+			}
+		},
+                  
+		{
+			"object-class": "OmniaResponseItem",
+			"base-class": "BEResponse",
+			"mapping": {
+				"number": {
+					"property": "number",
+					"type": "string"
+				},
+				"title": {
+					"property": "title",
+					"type": "string"
+				},
+				"ticketType": {
+					"property": "ticketType",
+					"type": "string"
+				},
+				"totalBookedTickets": {
+					"property": "totalBookedTickets",
+					"type": "numeric"
+				},
+                "totalBookableTickets": {
+					"property": "totalBookableTickets",
+					"type": "numeric"
+				},
+                "tickets": {
+                  "property": "tickets",
+                  "isArray": true,
+                  "object-class": "OrdersResponseItem"
+                },
+				"poi": {
+					"property": "card",
+					"type": "OmniaCard*",
+					"object-class": "OmniaCard"
+				}
+			}
+		},
+		{
+			"object-class": "OmniaCard",
+			"base-class": "Ticket",
+			"mapping": {
+				"productCode": {
+					"property": "productCode",
+					"type": "string"
+				},
+				"description": {
+					"property": "descriptionText",
+					"type": "string"
+				},
+				"images": {
+					"property": "images",
+					"isArray": true,
+                    "object-class": "NSURL",
+                    "no-import": true
+				},
+				"contentType": {
+					"property": "contentType",
+					"type": "string"
+				},
+				"type": {
+					"property": "type",
+					"type": "string"
+				},
+				"mainImage": {
+					"property": "mainImage",
+                    "object-class":"NSURL",
+                    "no-import": true
+				},
+				"includedTickets": {
+					"property": "includedTickets",
+					"isArray": true,
+					"object-class": "Ticket"
+				}
+			}
+		}
+	]
+}

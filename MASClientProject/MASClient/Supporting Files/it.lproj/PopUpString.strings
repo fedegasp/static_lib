@@ -1,0 +1,32 @@
+/* 
+  PopUpString.strings
+  MASClient
+
+  Created by Ludovica Acciai on 23/08/17.
+  Copyright © 2017 Accenture - MAS. All rights reserved.
+*/
+"VR_ERR_00"="Errore ";
+"VR_ERR_01"="Login Fallito";
+"VR_ERR_02"="OK";
+"VR_ERR_03"="Errore ";
+"VR_ERR_04"="Ops! \n sembra che qualcosa sia andato storto.";
+"VR_ERR_05"="Indicazioni";
+"VR_ERR_06"="Quale app vuoi aprire?";
+"VR_ERR_07"="Mappe";
+"VR_ERR_08"="Google Maps";
+"VR_ERR_09"="Annulla";
+"VR_ERR_10"="Successo";
+"VR_ERR_11"="Password aggiornata con successo, effettua l'accesso con le nuove credenziali";
+"VR_ERR_12"="Errore ";
+"VR_ERR_13"="Non è stato possibile completare l'operazione riprova più tardi ";
+"VR_ERR_14"="Non hai effettuato il login";
+"VR_ERR_15"="Se sei già registrato effettua il login, altrimenti riempi il modulo e riceverai la password all'indirizzo email specificato.";
+"VR_ERR_16"="Login";
+"VR_ERR_17"="Continua";
+"VR_ERR_18"="Errore ";
+"VR_ERR_19"="Conferma";
+"VR_ERR_20"="Sei sicuro di voler effettuare il logout";
+"VR_ERR_21"="Successo";
+"VR_ERR_22"="Registrazione effettuata con successo";
+"VR_ERR_23"="Successo";
+"VR_ERR_24"="Il tuo profilo è stato aggiornato";

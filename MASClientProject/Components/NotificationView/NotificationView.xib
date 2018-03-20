@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NotificationView">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dCC-b9-CME">
+                    <rect key="frame" x="8" y="8" width="34" height="34"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Oz-3V-JTr">
+                    <rect key="frame" x="8" y="8" width="34" height="34"/>
+                </button>
+                <view clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N4a-Wa-MUD" customClass="MRBadgeView">
+                    <rect key="frame" x="24" y="8" width="18" height="18"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ADj-jy-LBR">
+                            <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
+                            <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="10"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="2Rb-OV-lGA"/>
+                        <constraint firstAttribute="bottom" secondItem="ADj-jy-LBR" secondAttribute="bottom" id="5yy-sQ-LnG"/>
+                        <constraint firstAttribute="trailing" secondItem="ADj-jy-LBR" secondAttribute="trailing" id="Is0-ub-Jdd"/>
+                        <constraint firstItem="ADj-jy-LBR" firstAttribute="top" secondItem="N4a-Wa-MUD" secondAttribute="top" id="eCr-Pg-Uf3"/>
+                        <constraint firstAttribute="height" constant="18" id="mdu-GD-d88"/>
+                        <constraint firstItem="ADj-jy-LBR" firstAttribute="leading" secondItem="N4a-Wa-MUD" secondAttribute="leading" id="tqs-eP-hir"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                            <real key="value" value="9"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="badgeTag" value="notificationBadge"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="active" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="label" destination="ADj-jy-LBR" id="BXR-u8-yO4"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3Oz-3V-JTr" firstAttribute="centerY" secondItem="dCC-b9-CME" secondAttribute="centerY" id="7m8-zu-k6p"/>
+                <constraint firstAttribute="trailing" secondItem="dCC-b9-CME" secondAttribute="trailing" constant="8" id="KpN-q2-dJg"/>
+                <constraint firstItem="dCC-b9-CME" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Vu3-WN-OB1"/>
+                <constraint firstItem="3Oz-3V-JTr" firstAttribute="centerX" secondItem="dCC-b9-CME" secondAttribute="centerX" id="VyT-Bx-QLn"/>
+                <constraint firstItem="3Oz-3V-JTr" firstAttribute="height" secondItem="dCC-b9-CME" secondAttribute="height" id="WdW-ne-7cq"/>
+                <constraint firstItem="N4a-Wa-MUD" firstAttribute="top" secondItem="dCC-b9-CME" secondAttribute="top" id="fn0-3T-8bH"/>
+                <constraint firstAttribute="bottom" secondItem="dCC-b9-CME" secondAttribute="bottom" constant="8" id="tdb-d3-OqI"/>
+                <constraint firstItem="N4a-Wa-MUD" firstAttribute="centerX" secondItem="dCC-b9-CME" secondAttribute="centerX" constant="8" id="wdF-3d-UGL"/>
+                <constraint firstItem="3Oz-3V-JTr" firstAttribute="width" secondItem="dCC-b9-CME" secondAttribute="width" id="wqw-wU-sAx"/>
+                <constraint firstItem="dCC-b9-CME" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="xrM-Xm-upV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="dCC-b9-CME" id="36I-zu-QLq"/>
+            </connections>
+            <point key="canvasLocation" x="-119" y="-242"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,179 @@
+/* 
+  staticLabelstring.strings
+  MASClient
+
+  Created by Ludovica Acciai on 09/08/17.
+  Copyright © 2017 Accenture - MAS. All rights reserved.
+*/
+"V&R-SP-00"="Scopri Roma e il Vaticano";
+"V&R-SP-01"="La storia e la religione si uniscono in un viaggio emozionante alla scoperta di luoghi unici e sacri";
+"V&R-SP-02"="Continua";
+"V&R-SP-03"="Skip";
+"V&R-SP-04"="Racconti Storie  Emozioni";
+"V&R-SP-05"="Percorsi di arte e fede";
+"V&R-SP-02"="Chiudi";
+
+"V&R-HP-00"="Benvenuto a Roma e in Vaticano. Compra i tuoi biglietti con un click";
+"V&R-HP-01"="Esplora";
+"V&R-HP-02"="Vuoi una soluzione All inclusive?";
+"V&R-HP-03"="Omnia Card ";
+"V&R-HP-04"="Categorie";
+
+"V&R-DP-00"="Prenota";
+"V&R-DP-01"="ORARI";
+"V&R-DP-02"="CHIUSURA";
+"V&R-DP-03"="DURATA";
+"V&R-DP-00"="Acquista";
+
+"V&R-MT-00"="Condividi ";
+"V&R-MT-01"="Ascolta il racconto";
+"V&R-MT-02"="Audioguida";
+"V&R-MT-03"="biglietto";
+"V&R-MT-04"="biglietti";
+
+"V&R-T-00"="Dettagli";
+"V&R-T-01"="Tickets";
+
+"V&R-P-00"="Profilo";
+"V&R-P-01"="Non ci sono informazioni personali";
+"V&R-P-02"="Accedi";
+"V&R-P-03"="I miei biglietti";
+"V&R-P-04"="Non ci sono ancora biglietti per te";
+"V&R-P-05"="Preferiti";
+"V&R-P-06"="Non ci sono ancora preferiti per te";
+"V&R-P-07"="Modifica";
+"V&R-P-08"="vedi tutto";
+
+"V&R-PU-00"="Modifica Profilo";
+"V&R-PU-01"="Dati personali";
+"V&R-PU-02"="Cambio password";
+"V&R-PU-03"="Inserisci il tuo numero di telefono";
+"V&R-PU-04"="Aggiorna i dati personali";
+"V&R-PU-05"="Nome*:";
+"V&R-PU-06"="Cognome*:";
+"V&R-PU-07"="Email*:";
+"V&R-PU-08"="Telefono:";
+"V&R-PU-09"="Nazione*:";
+"V&R-PU-10"="Password attuale:";
+"V&R-PU-11"="Nuova password:";
+"V&R-PU-12"="Ripeti password:";
+"V&R-PU-13"="Inserisci la password attuale";
+"V&R-PU-14"="Inserisci la nuova password";
+"V&R-PU-15"="Ripeti la nuova password";
+"V&R-PU-16"="Aggiorna la password";
+
+"V&R-S-00"="Scopri ";
+
+"V&R-IP-00"="Info Points";
+"V&R-IP-01"="Orari";
+"V&R-IP-02"="Indirizzo";
+
+"V&P-V-00"="Preferiti";
+
+"V&P-L-00"="Login";
+"V&P-L-01"="Email:";
+"V&P-L-02"="Password:";
+"V&P-L-03"="Ricordami:";
+"V&P-L-04"="Inserisci la tua email";
+"V&P-L-05"="Inserisci la tua password";
+"V&P-L-06"="Hai dimenticato la password?";
+"V&P-L-07"="Login";
+"V&P-L-08"="Non hai un account? Crealo in un attimo";
+
+"V&P-R-00"="Registrazione";
+"V&P-R-01"="Nome*:";
+"V&P-R-02"="Cognome*:";
+"V&P-R-03"="Email*:";
+"V&P-R-04"="Nazione*:";
+"V&P-R-05"="Inserisci qui il tuo nome";
+"V&P-R-06"="Inserisci qui il tuo cognome";
+"V&P-R-07"="Inserisci qui l'email";
+"V&P-R-08"="Scegli la tua nazione";
+"V&P-R-09"="Registrati ";
+"V&P-R-10"="Già registrato? Effettua la login!";
+
+"V&P-WF-00"="Punti Wi-fi";
+"V&P-WF-01"="Punto Wi-fi";
+
+"V&P-SUP-00"="Supporto";
+"V&P-SUP-01"="Hai bisogno di aiuto?";
+"V&P-SUP-02"="Chiamaci!";
+"V&P-SUP-03"="Se preferisci scrivi a:";
+"V&P-SUP-04"="…o chiedi informarmazioni in uno degli info point";
+"V&P-SUP-05"="Invia una e-mail";
+"V&P-SUP-06"="Dettagli";
+
+"V&P-PR-00"="Recupera password";
+"V&P-PR-01"="Email:";
+"V&P-PR-02"="Recupera password";
+"V&P-PR-03"="Una nuova password verrà inviata all’indirizzo email indicato.";
+"V&P-PR-04"="Inserisci la tua mail";
+
+"V&P-MS-00"="prodotti selezionati";
+"V&P-MS-01"="Acquista";
+
+"V&P-TS-00"="Scegli i biglietti";
+"V&P-TS-01"="Continua";
+"V&P-TS-02"="Aggiungi supplementi";
+"V&P-TS-03"="Scegli il giorno";
+"V&P-TS-04"="Scegli l'orario:";
+"V&P-TS-05"="I tuoi dati";
+"V&P-TS-06"="Conferma";
+"V&P-TS-07"="Conferma e Registrati";
+"V&P-TS-08"="Confermando si accettano i termini e condizioni di utilizzo";
+"V&P-TS-09"="Quale è il tuo nome?";
+"V&P-TS-10"="Nome*:";
+"V&P-TS-11"="Cognome*:";
+"V&P-TS-12"="Inserisci il tuo nome";
+"V&P-TS-13"="Inserisci il tuo cognome";
+"V&P-TS-14"="Quale è la tua email?";
+"V&P-TS-15"="Email*:";
+"V&P-TS-16"="Inserisci la tua email";
+"V&P-TS-17"="Vuoi essere contattato rapidamente?";
+"V&P-TS-18"="Teleofono";
+"V&P-TS-19"="Inserisci il tuo telefono";
+"V&P-TS-20"="Bene! La tua prenotazione è stata effettuata con successo.";
+"V&P-TS-21"="Attenzione: la prenotazione resterà valisa per 10:00 minuti";
+"V&P-TS-22"="Acquista subito";
+"V&P-TS-23"="o torna all'App";
+
+"V&R-PY-00"="Nome";
+"V&R-PY-01"="Cognome";
+"V&R-PY-02"="email";
+"V&R-PY-03"="Telefono";
+"V&R-PY-04"="Nazione";
+"V&R-PY-05"="";
+"V&R-PY-06"="Accetto termini e condizioni";
+"V&R-PY-07"="Vorrei ricevere le nostre informazioni e offerte ";
+"V&R-PY-08"="Pagamento";
+"V&R-PY-09"="Conferma ordine";
+"V&R-PY-10"="biglietto";
+"V&R-PY-11"="biglietti";
+"V&R-PY-12"="Attenzione! Il tuo acquisto non  è andato a buon fine.";
+"V&R-PY-13"="Contattaci per avere maggior informazione  ed acquistare nuovi biglietti";
+"V&R-PY-14"="Torna all'app";
+"V&R-PY-15"="Bene! Il tuo acquisto è stato effettuato con successo.";
+"V&R-PY-16"="Una mail di conferma sarà inviata al tuo indirizzo email:";
+
+"V&R-MP-00"="Mappa";
+"V&R-MP-01"="Filter";
+"V&R-MP-02"="Info points";
+"V&R-MP-03"="Punti di interesse";
+"V&R-MP-04"="Open Bus";
+"V&R-MP-05"="Punti Wi-fi";
+"V&R-MP-06"="Filtra";
+"V&R-MP-07"="Raggiungi";
+"V&R-MP-08"="in arrivo tra:";
+"V&R-MP-09"="Acquista";
+
+"V&R-OBD-00"="Mappa:";
+"V&R-OBD-01"="Le fermate:";
+"V&R-OBD-02"="Acquista subito";
+
+"V&R-IPD-00"="Indicazioni";
+"V&R-IPD-01"="Avvisi";
+"V&R-IPD-02"="Orari di apertura";
+
+"V&R-SD-00"="Indicazioni";
+"V&R-SD-01"="Avvisi";
+"V&R-SD-02"="In arrivo tra";

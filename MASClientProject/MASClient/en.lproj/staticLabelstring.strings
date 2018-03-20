@@ -1,0 +1,179 @@
+/* 
+  staticLabelstring.strings
+  MASClient
+
+  Created by Ludovica Acciai on 09/08/17.
+  Copyright © 2017 Accenture - MAS. All rights reserved.
+*/
+"V&R-SP-00"="Discover Rome and the Vatican";
+"V&R-SP-01"="Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo. ";
+"V&R-SP-02"="Discove";
+"V&R-SP-03"="Skip";
+"V&R-SP-04"="Guide Story Emotion";
+"V&R-SP-05"="Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo.";
+"V&R-SP-02"="Close";
+
+"V&R-HP-00"="Hi, enjoy our app. you can find All info and buy tickets.";
+"V&R-HP-01"="Explore";
+"V&R-HP-02"="Do you want to visit everything?";
+"V&R-HP-03"="Get Omnia Card";
+"V&R-HP-04"="Categories";
+
+"V&R-DP-00"="Reserve";
+"V&R-DP-01"="HOURS";
+"V&R-DP-02"="CLOSING DAY";
+"V&R-DP-03"="DURATION";
+"V&R-DP-00"="Checkout";
+
+"V&R-MT-00"="Share";
+"V&R-MT-01"="Get your audioguide now!";
+"V&R-MT-02"="Audioguide";
+"V&R-MT-03"="ticket";
+"V&R-MT-04"="tickets";
+
+"V&R-T-00"="Get Detail";
+"V&R-T-01"="Tickets";
+
+"V&R-P-00"="Profile";
+"V&R-P-01"="You don't have any personal information.";
+"V&R-P-02"="Log in";
+"V&R-P-03"="My Tickets";
+"V&R-P-04"="You don't have any Tickets right now";
+"V&R-P-05"="Favourites";
+"V&R-P-06"="You don't have any favourite right now";
+"V&R-P-07"="Edit Info";
+"V&R-P-08"="See All";
+
+"V&R-PU-00"="Update Profile";
+"V&R-PU-01"="Personal info";
+"V&R-PU-02"="Update Password";
+"V&R-PU-03"="Insert your telephone number";
+"V&R-PU-04"="Save info";
+"V&R-PU-05"="First name*:";
+"V&R-PU-06"="Last name*:";
+"V&R-PU-07"="Email*:";
+"V&R-PU-08"="Phone:";
+"V&R-PU-09"="Country*:";
+"V&R-PU-10"="Current password:";
+"V&R-PU-11"="New password:";
+"V&R-PU-12"="Confirm new password:";
+"V&R-PU-13"="Insert current password";
+"V&R-PU-14"="Insert new password";
+"V&R-PU-15"="Confirm new password";
+"V&R-PU-16"="Update passowrd";
+
+"V&R-S-00"="Discover";
+
+"V&R-IP-00"="Info Points";
+"V&R-IP-01"="Timetable";
+"V&R-IP-02"="Address";
+
+"V&P-V-00"="Favourites";
+
+"V&P-L-00"="Login";
+"V&P-L-01"="Email:";
+"V&P-L-02"="Password:";
+"V&P-L-03"="Remember me:";
+"V&P-L-04"="Insert your email";
+"V&P-L-05"="Insert your password";
+"V&P-L-06"="Did you forgot your password?";
+"V&P-L-07"="Login";
+"V&P-L-08"="Register";
+
+"V&P-R-00"="Registration";
+"V&P-R-01"="Name*:";
+"V&P-R-02"="Surname*";
+"V&P-R-03"="Email*:";
+"V&P-R-04"="Country*:";
+"V&P-R-05"="Insert your name";
+"V&P-R-06"="Insert your surname";
+"V&P-R-07"="Insert your email";
+"V&P-R-08"="Select your country";
+"V&P-R-09"="Register";
+"V&P-R-10"="Already registered? Go to login!";
+
+"V&P-WF-00"="Wi-fi points";
+"V&P-WF-01"="Wi-fi point";
+
+"V&P-SUP-00"="Support";
+"V&P-SUP-01"="Do you need help?";
+"V&P-SUP-02"="Call us!";
+"V&P-SUP-03"="If you prefer send us an email:";
+"V&P-SUP-04"="…or get info in any info point";
+"V&P-SUP-05"="Send an e-mail";
+"V&P-SUP-06"="Details";
+
+"V&P-PR-00"="Recover password";
+"V&P-PR-01"="Email:";
+"V&P-PR-02"="Recover password";
+"V&P-PR-03"="A new password will be sent to the email you provided";
+"V&P-PR-04"="Insert your email";
+
+"V&P-MS-00"="selected products";
+"V&P-MS-01"="Checkout";
+
+"V&P-TS-00"="Select the tickets";
+"V&P-TS-01"="Continue";
+"V&P-TS-02"="Add supplements";
+"V&P-TS-03"="Date selection";
+"V&P-TS-04"="Select time: ";
+"V&P-TS-05"="Personal info";
+"V&P-TS-06"="Confirm";
+"V&P-TS-07"="Confirm and Register";
+"V&P-TS-08"="By confirming you agree to the terms and conditions of use";
+"V&P-TS-09"="What's your name?";
+"V&P-TS-10"="Name*:";
+"V&P-TS-11"="Surname*:";
+"V&P-TS-12"="Insert your name";
+"V&P-TS-13"="Insert your surname";
+"V&P-TS-14"="Which is your email?";
+"V&P-TS-15"="Email*:";
+"V&P-TS-16"="Insert your email";
+"V&P-TS-17"="Do you want to be contacted quickly?";
+"V&P-TS-18"="Phone";
+"V&P-TS-19"="Insert your phone";
+"V&P-TS-20"="Great! Your reservation was made successfully.";
+"V&P-TS-21"="Attention: your reservation will remain valid for 10:00 minutes";
+"V&P-TS-22"="Checkout";
+"V&P-TS-23"="o go back to the App";
+
+"V&R-PY-00"="Frist name";
+"V&R-PY-01"="Last name";
+"V&R-PY-02"="Email";
+"V&R-PY-03"="Phone";
+"V&R-PY-04"="Country";
+"V&R-PY-05"=" ";
+"V&R-PY-06"="I accept terms and conditions.";
+"V&R-PY-07"="I would like to receive news and offers from ORP.";
+"V&R-PY-08"="Payment";
+"V&R-PY-09"="Order confirmation";
+"V&R-PY-10"="ticket";
+"V&R-PY-11"="tickets";
+"V&R-PY-12"="Attention! Your purchas has not been saccessful.";
+"V&R-PY-13"="Contact us for more information and to buy new tickets";
+"V&R-PY-14"="Go back to the App";
+"V&R-PY-15"="Great! Your purchase was made successfully.";
+"V&R-PY-16"="You will receive a confirmation email at your address:";
+
+"V&R-MP-00"="Map";
+"V&R-MP-01"="Filters";
+"V&R-MP-02"="Info points";
+"V&R-MP-03"="Points of interest";
+"V&R-MP-04"="Open Bus";
+"V&R-MP-05"="Wi-fi points";
+"V&R-MP-06"="Filter";
+"V&R-MP-07"="Get directions";
+"V&R-MP-08"="arriving in:";
+"V&R-MP-09"="Checkout";
+
+"V&R-OBD-00"="Map:";
+"V&R-OBD-01"="Stops:";
+"V&R-OBD-02"="Checkout";
+
+"V&R-IPD-00"="Get directions";
+"V&R-IPD-01"="Notice";
+"V&R-IPD-02"="Opening hours";
+
+"V&R-SD-00"="Get directions";
+"V&R-SD-01"="Notice";
+"V&R-SD-02"="Arriving in";

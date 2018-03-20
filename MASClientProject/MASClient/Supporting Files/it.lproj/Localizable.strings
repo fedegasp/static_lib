@@ -1,0 +1,209 @@
+"VR_SP_00"="Example";
+"VR_SP_01"="La storia e la religione si uniscono in un viaggio emozionante alla scoperta di luoghi unici e sacri";
+"VR_SP_02"="Continua";
+"VR_SP_03"="Skip";
+"VR_SP_04"="Racconti Storie  Emozioni";
+"VR_SP_05"="Percorsi di arte e fede";
+"VR_SP_06"="Chiudi";
+
+"VR_HP_00"="Benvenuto. Compra i tuoi biglietti con un click";
+"VR_HP_01"="Esplora";
+"VR_HP_02"="Vuoi una soluzione All inclusive?";
+"VR_HP_03"="Omnia Card ";
+"VR_HP_04"="Categorie";
+
+"VR_DP_00"="Prenota";
+"VR_DP_01"="ORARI";
+"VR_DP_02"="CHIUSURA";
+"VR_DP_03"="DURATA";
+"VR_DP_04"="Acquista";
+
+"VR_MT_00"="Condividi ";
+"VR_MT_01"="Vai alle audioguide";
+"VR_MT_02"="Audioguide";
+"VR_MT_03"="biglietto";
+"VR_MT_04"="biglietti";
+
+"VR_T_00"="Dettagli";
+"VR_T_01"="Tickets";
+
+"VR_P_00"="Profilo";
+"VR_P_01"="Non ci sono informazioni personali";
+"VR_P_02"="Accedi";
+"VR_P_03"="BIGLIETTI";
+"VR_P_04"="Non ci sono ancora biglietti per te";
+"VR_P_05"="Preferiti";
+"VR_P_06"="Non ci sono ancora preferiti per te";
+"VR_P_07"="Modifica";
+"VR_P_08"="vedi tutto";
+"VR_P_09"="OMNIA CARDS";
+
+"VR_UP_00"="Modifica Profilo";
+"VR_UP_01"="Dati personali";
+"VR_UP_02"="Cambio password";
+"VR_UP_03"="Inserisci il tuo numero di telefono";
+"VR_UP_04"="Aggiorna i dati personali";
+"VR_UP_05"="Nome*:";
+"VR_UP_06"="Cognome*:";
+"VR_UP_07"="Email*:";
+"VR_UP_08"="Telefono:";
+"VR_UP_09"="Nazione*:";
+"VR_UP_10"="Password attuale:";
+"VR_UP_11"="Nuova password:";
+"VR_UP_12"="Ripeti password:";
+"VR_UP_13"="Inserisci la password attuale";
+"VR_UP_14"="Inserisci la nuova password";
+"VR_UP_15"="Ripeti la nuova password";
+"VR_UP_16"="Aggiorna la password";
+"VR_UP_17"="La password deve essere composta da:\n (i) almeno 8 caratteri;\n (ii) almeno un numero;\n (ii) almeno una lettera maiuscola";
+
+"VR_S_00"="Scopri ";
+
+"VR_IP_00"="Info Points";
+"VR_IP_01"="Orari";
+"VR_IP_02"="Indirizzo";
+
+"VR_V_00"="Preferiti";
+
+"VR_L_00"="Login";
+"VR_L_01"="Email:";
+"VR_L_02"="Password:";
+"VR_L_03"="Ricordami:";
+"VR_L_04"="Inserisci la tua email";
+"VR_L_05"="Inserisci la tua password";
+"VR_L_06"="Hai dimenticato la password?";
+"VR_L_07"="Login";
+"VR_L_08"="Non hai un account? Crealo in un attimo";
+
+"VR_R_00"="Registrazione";
+"VR_R_01"="Nome*:";
+"VR_R_02"="Cognome*:";
+"VR_R_03"="Email*:";
+"VR_R_04"="Nazione*:";
+"VR_R_05"="Inserisci qui il tuo nome";
+"VR_R_06"="Inserisci qui il tuo cognome";
+"VR_R_07"="Inserisci qui l'email";
+"VR_R_08"="Scegli la tua nazione";
+"VR_R_09"="Registrati ";
+"VR_R_10"="Già registrato? Effettua la login!";
+
+"VR_WF_00"="Punti Wi-fi";
+"VR_WF_01"="Punto Wi-fi";
+
+"VR_SUP_00"="Supporto";
+"VR_SUP_01"="Hai bisogno di aiuto?";
+"VR_SUP_02"="Chiamaci!";
+"VR_SUP_03"="Se preferisci scrivi a:";
+"VR_SUP_04"="…o chiedi informarmazioni in uno degli info point";
+"VR_SUP_05"="Invia una email";
+"VR_SUP_06"="Dettagli";
+"VR_SUP_07"="06698961";
+"VR_SUP_08"="support@example.com";
+
+"VR_RP_00"="Recupera password";
+"VR_RP_01"="Email:";
+"VR_RP_02"="Recupera password";
+"VR_RP_03"="Una nuova password verrà inviata all’indirizzo email indicato.";
+"VR_RP_04"="Inserisci la tua mail";
+
+"VR_MS_00"="prodotti selezionati";
+"VR_MS_01"="Acquista";
+
+"VR_TS_00"="Scegli i biglietti";
+"VR_TS_01"="Continua";
+"VR_TS_02"="Aggiungi supplementi";
+"VR_TS_03"="Scegli il giorno";
+"VR_TS_04"="Scegli l'orario:";
+"VR_TS_05"="I tuoi dati";
+"VR_TS_06"="Conferma";
+"VR_TS_07"="Conferma e Registrati";
+"VR_TS_08"="Confermando si accettano i termini e condizioni di utilizzo";
+"VR_TS_09"="Quale è il tuo nome?";
+"VR_TS_10"="Nome*:";
+"VR_TS_11"="Cognome*:";
+"VR_TS_12"="Inserisci il tuo nome";
+"VR_TS_13"="Inserisci il tuo cognome";
+"VR_TS_14"="Quale è la tua email?";
+"VR_TS_15"="Email*:";
+"VR_TS_16"="Inserisci la tua email";
+"VR_TS_17"="Vuoi essere contattato rapidamente?";
+"VR_TS_18"="Telefono";
+"VR_TS_19"="Inserisci il tuo telefono";
+"VR_TS_20"="Bene! La tua prenotazione è stata effettuata con successo.";
+"VR_TS_21"="Attenzione: la prenotazione resterà valida per 10:00 minuti";
+"VR_TS_22"="Acquista subito";
+"VR_TS_23"="o torna all'App";
+"VR_TS_24"="Quale è la tua nazione?";
+"VR_TS_25"="Nazione*:";
+"VR_TS_26"="Scegli la tua nazione";
+
+"VR_PY_00"="Nome";
+"VR_PY_01"="Cognome";
+"VR_PY_02"="email";
+"VR_PY_03"="Telefono";
+"VR_PY_04"="Nazione";
+"VR_PY_05"="";
+"VR_PY_06"="Accetto termini e condizioni";
+"VR_PY_07"="Vorrei ricevere le nostre informazioni e offerte ";
+"VR_PY_08"="Pagamento";
+"VR_PY_09"="Conferma ordine";
+"VR_PY_10"="biglietto";
+"VR_PY_11"="biglietti";
+"VR_PY_12"="Attenzione! Il tuo acquisto non  è andato a buon fine.";
+"VR_PY_13"="Contattaci per avere maggior informazione  ed acquistare nuovi biglietti";
+"VR_PY_14"="Torna all'app";
+"VR_PY_15"="Bene! Il tuo acquisto è stato effettuato con successo.";
+"VR_PY_16"="Una mail di conferma sarà inviata al tuo indirizzo email:";
+"VR_PY_17"="Prezzo";
+
+"VR_MP_00"="Mappa";
+"VR_MP_01"="Filtri";
+"VR_MP_02"="Info points";
+"VR_MP_03"="Punti di interesse";
+"VR_MP_04"="Open Bus";
+"VR_MP_05"="Punti Wi-fi";
+"VR_MP_06"="Filtra";
+"VR_MP_07"="Raggiungi";
+"VR_MP_08"="in arrivo tra:";
+"VR_MP_09"="Acquista";
+
+"VR_OBD_00"="Mappa:";
+"VR_OBD_01"="Le fermate:";
+"VR_OBD_02"="Acquista subito";
+
+"VR_IPD_00"="Indicazioni";
+"VR_IPD_01"="Avvisi";
+"VR_IPD_02"="Orari di apertura";
+
+"VR_SD_00"="Indicazioni";
+"VR_SD_01"="Avvisi";
+"VR_SD_02"="In arrivo tra:";
+"VR_SD_03"="Prossimi arrivi:";
+
+"VR_SE_00"="Cerca";
+"VR_SE_01"="Categoria";
+"VR_SE_02"="Annulla";
+"VR_SE_03"="Ops! Sembra non esserci alcun contenuto corrispondente. Prova ad effettuare una nuova ricerca.";
+
+"VR_WBP_00"="Acquisto";
+
+"VR_OCP_00"="Le tue Card";
+"VR_OCP_01"="reservation";
+"VR_OCP_02"="Attività";
+"VR_OCP_03"="Scaduta";
+"VR_OCP_04"="di";
+"VR_OCP_05"="Come funziona Card?";
+"VR_OCP_06"="Scoprilo";
+"VR_OCP_07"="Conferma";
+"VR_OCP_08"="Attenzione! Il tuo acquisto non  è andato a buon fine.";
+"VR_OCP_09"="Contattaci per avere maggior informazione ";
+"VR_OCP_10"="Torna all'app";
+"VR_OCP_11"="Bene! La tua Card è stata acquistata con successo.";
+"VR_OCP_12"="Visita il tuo profilo per vedere la tua Card";
+"VR_OCP_13"="Vai al Profilo";
+
+"VR_OPY_00"="Scegli le card";
+"VR_OPY_01"="Continua";
+"VR_OPY_02"="Visite incluse";
+"VR_OPY_03"="Prenota subito";
+"VR_OPY_04"="Prenota in seguito";

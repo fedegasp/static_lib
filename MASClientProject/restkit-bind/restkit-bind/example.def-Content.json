@@ -1,0 +1,36 @@
+{
+  "services": [
+    {
+      "object-class": "Content",
+      "base-class": "BERequest",
+      "methods": [
+        {
+          "name": "GetHomeContents",
+          "parameters": [],
+          "constants": [],
+          "environment": "BE_GET",
+          "endpoint": "/homepage",
+          "response": "HomePageContentResponse"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "object-class": "HomePageContentResponse",
+      "base-class": "BEResponse",
+      "mapping": {
+        "data.header": {
+          "property": "header",
+          "type": "CustomButton*",
+          "object-class": "CustomButton"
+        },
+        "data.buttonList": {
+           "managed": true,
+           "property": "buttonList",
+           "type": "array"
+        }
+      }
+    }
+  ]
+}

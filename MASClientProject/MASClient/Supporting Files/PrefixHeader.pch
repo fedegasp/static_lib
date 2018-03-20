@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  MASClient
+//
+//  Created by Federico Gasperini on 26/10/16.
+//  Copyright © 2016 Accenture - MAS. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import <MASLib/MASLib.h>
+
+#import "IKCommon.h"
+
+#if __has_include("MASLocalNotification.h")
+#import "MASLocalNotification.h"
+#endif
+
+#if __has_include("MASProjectConfiguration.h")
+#import "MASProjectConfiguration.h"
+#endif
+
+#if __has_include("MASCustomInclude.h")
+#import "MASCustomInclude.h"
+#endif
+
+#endif /* PrefixHeader_pch */
+

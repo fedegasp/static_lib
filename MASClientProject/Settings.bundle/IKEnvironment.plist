@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>DefaultValue</key>
+			<string>STUB</string>
+			<key>Key</key>
+			<string>IKEnvironment</string>
+			<key>Title</key>
+			<string>Choose environment</string>
+			<key>Titles</key>
+			<array>
+				<string>STUB</string>
+				<string>DEV</string>
+				<string>STAGING</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>STUB</string>
+				<string>DEV</string>
+				<string>STAGING</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

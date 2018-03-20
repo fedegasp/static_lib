@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:MASClientProject/MASClient.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:MASLib/Config"
+      name = "Config">
+      <FileRef
+         location = "group:Common.debug.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:Common.release.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:Common.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:expand_env.sh">
+      </FileRef>
+      <FileRef
+         location = "group:MASLib/MASLib.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

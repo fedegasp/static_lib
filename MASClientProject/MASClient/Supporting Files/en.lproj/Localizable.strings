@@ -1,0 +1,209 @@
+"VR_SP_00"="Example";
+"VR_SP_01"="Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo. ";
+"VR_SP_02"="Discover";
+"VR_SP_03"="Skip";
+"VR_SP_04"="Guide Story Emotion";
+"VR_SP_05"="Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo.";
+"VR_SP_06"="Close";
+
+"VR_HP_00"="Hi, enjoy our app. you can find All info and buy tickets.";
+"VR_HP_01"="Explore";
+"VR_HP_02"="Do you want to visit everything?";
+"VR_HP_03"="Get Card";
+"VR_HP_04"="Categories";
+
+"VR_DP_00"="Reserve";
+"VR_DP_01"="HOURS";
+"VR_DP_02"="CLOSURE";
+"VR_DP_03"="DURATION";
+"VR_DP_04"="Checkout";
+
+"VR_MT_00"="Share";
+"VR_MT_01"="Get your audioguides now!";
+"VR_MT_02"="Audioguides";
+"VR_MT_03"="ticket";
+"VR_MT_04"="tickets";
+
+"VR_T_00"="Details";
+"VR_T_01"="Tickets";
+
+"VR_P_00"="Profile";
+"VR_P_01"="You don't have any personal information.";
+"VR_P_02"="Log in";
+"VR_P_03"="TICKETS";
+"VR_P_04"="You don't have any Tickets right now";
+"VR_P_05"="Favourites";
+"VR_P_06"="You don't have any favourite right now";
+"VR_P_07"="Edit Info";
+"VR_P_08"="See All";
+"VR_P_09"="OMNIA CARDS";
+
+"VR_UP_00"="Update Profile";
+"VR_UP_01"="Personal info";
+"VR_UP_02"="Update Password";
+"VR_UP_03"="Insert your telephone number";
+"VR_UP_04"="Save info";
+"VR_UP_05"="First name*:";
+"VR_UP_06"="Last name*:";
+"VR_UP_07"="Email*:";
+"VR_UP_08"="Phone:";
+"VR_UP_09"="Country*:";
+"VR_UP_10"="Current password:";
+"VR_UP_11"="New password:";
+"VR_UP_12"="Confirm password:";
+"VR_UP_13"="Insert current password";
+"VR_UP_14"="Insert new password";
+"VR_UP_15"="Confirm new password";
+"VR_UP_16"="Update password";
+"VR_UP_17"="The password should contain: \n (i) at least 8 charachters;\n  (ii) at least an upper case letter; \n (iii) at least a lower case letter.";
+
+"VR_S_00"="Discover";
+
+"VR_IP_00"="Info Points";
+"VR_IP_01"="Timetable";
+"VR_IP_02"="Address";
+
+"VR_V_00"="Favourites";
+
+"VR_L_00"="Login";
+"VR_L_01"="Email:";
+"VR_L_02"="Password:";
+"VR_L_03"="Remember me:";
+"VR_L_04"="Insert your email";
+"VR_L_05"="Insert your password";
+"VR_L_06"="Did you forgot your password?";
+"VR_L_07"="Login";
+"VR_L_08"="Do not have an account? Register now!";
+
+"VR_R_00"="Registration";
+"VR_R_01"="Name*:";
+"VR_R_02"="Surname*";
+"VR_R_03"="Email*:";
+"VR_R_04"="Country*:";
+"VR_R_05"="Insert your name";
+"VR_R_06"="Insert your surname";
+"VR_R_07"="Insert your email";
+"VR_R_08"="Select your country";
+"VR_R_09"="Register";
+"VR_R_10"="Already registered? Go to login!";
+
+"VR_WF_00"="Wi-fi points";
+"VR_WF_01"="Wi-fi point";
+
+"VR_SUP_00"="Support";
+"VR_SUP_01"="Do you need help?";
+"VR_SUP_02"="Call us!";
+"VR_SUP_03"="If you prefer send us an email:";
+"VR_SUP_04"="…or get info in any info point";
+"VR_SUP_05"="Send an email";
+"VR_SUP_06"="Details";
+"VR_SUP_07"="06698961";
+"VR_SUP_08"="support@example.com";
+
+"VR_RP_00"="Recover password";
+"VR_RP_01"="Email:";
+"VR_RP_02"="Recover password";
+"VR_RP_03"="A new password will be sent to the email you provided";
+"VR_RP_04"="Insert your email";
+
+"VR_MS_00"="selected products";
+"VR_MS_01"="Checkout";
+
+"VR_TS_00"="Select the tickets";
+"VR_TS_01"="Continue";
+"VR_TS_02"="Add supplements";
+"VR_TS_03"="Date selection";
+"VR_TS_04"="Select time: ";
+"VR_TS_05"="Personal info";
+"VR_TS_06"="Confirm";
+"VR_TS_07"="Confirm and Register";
+"VR_TS_08"="By confirming you agree to the terms and conditions of use";
+"VR_TS_09"="What's your name?";
+"VR_TS_10"="Name*:";
+"VR_TS_11"="Surname*:";
+"VR_TS_12"="Insert your name";
+"VR_TS_13"="Insert your surname";
+"VR_TS_14"="Which is your email?";
+"VR_TS_15"="Email*:";
+"VR_TS_16"="Insert your email";
+"VR_TS_17"="Do you want to be contacted quickly?";
+"VR_TS_18"="Phone";
+"VR_TS_19"="Insert your phone";
+"VR_TS_20"="Great! Your reservation was made successfully.";
+"VR_TS_21"="Attention: your reservation will remain valid for 10:00 minutes";
+"VR_TS_22"="Checkout";
+"VR_TS_23"="or go back to the App";
+"VR_TS_24"="Where are you from?";
+"VR_TS_25"="Country*:";
+"VR_TS_26"="Select your country";
+
+"VR_PY_00"="Frist name";
+"VR_PY_01"="Last name";
+"VR_PY_02"="Email";
+"VR_PY_03"="Phone";
+"VR_PY_04"="Country";
+"VR_PY_05"=" ";
+"VR_PY_06"="I accept terms and conditions.";
+"VR_PY_07"="I would like to receive news and offers from ORP.";
+"VR_PY_08"="Payment";
+"VR_PY_09"="Order confirmation";
+"VR_PY_10"="ticket";
+"VR_PY_11"="tickets";
+"VR_PY_12"="Attention! Your purchas has not been saccessful.";
+"VR_PY_13"="Contact us for more information and to buy new tickets";
+"VR_PY_14"="Go back to the App";
+"VR_PY_15"="Great! Your purchase was made successfully.";
+"VR_PY_16"="You will receive a confirmation email at your address:";
+"VR_PY_17"="Price";
+
+"VR_MP_00"="Map";
+"VR_MP_01"="Filters";
+"VR_MP_02"="Info points";
+"VR_MP_03"="Points of interest";
+"VR_MP_04"="Open Bus";
+"VR_MP_05"="Wi-fi points";
+"VR_MP_06"="Filter";
+"VR_MP_07"="Directions";
+"VR_MP_08"="arriving in:";
+"VR_MP_09"="Checkout";
+
+"VR_OBD_00"="Map:";
+"VR_OBD_01"="Stops:";
+"VR_OBD_02"="Checkout";
+
+"VR_IPD_00"="Directions";
+"VR_IPD_01"="Notice";
+"VR_IPD_02"="Opening hours";
+
+"VR_SD_00"="Directions";
+"VR_SD_01"="Notice";
+"VR_SD_02"="Arriving in:";
+"VR_SD_03"="Next arrivals:";
+
+"VR_SE_00"="Search";
+"VR_SE_01"="Category";
+"VR_SE_02"="Cancel";
+"VR_SE_03"="Sorry! It seems there is no corresponding contents. Try a new research!";
+
+"VR_WBP_00"="Payment";
+
+"VR_OCP_00"="Your Cards";
+"VR_OCP_01"="reservations";
+"VR_OCP_02"="Active";
+"VR_OCP_03"="Expired";
+"VR_OCP_04"="of";
+"VR_OCP_05"="What is Card?";
+"VR_OCP_06"="Discover";
+"VR_OCP_07"="Confirm";
+"VR_OCP_08"="Attention! Your purchas has not been saccessful.";
+"VR_OCP_09"="Contact us for more information";
+"VR_OCP_10"="Go back to the app";
+"VR_OCP_11"="Great! Your Card was purchased successfully.";
+"VR_OCP_12"="Visit your profile to see your Card";
+"VR_OCP_13"="Go to Profile";
+
+"VR_OPY_00"="Choose your cards";
+"VR_OPY_01"="Continue";
+"VR_OPY_02"="Included visits";
+"VR_OPY_03"="Reserve now";
+"VR_OPY_04"="Reserve later";

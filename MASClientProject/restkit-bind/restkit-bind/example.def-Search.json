@@ -1,0 +1,112 @@
+{
+  "services": [
+    {
+      "object-class": "Search",
+      "base-class": "BERequest",
+      "mapping": {
+        "q": "q",
+        "termID": "termID"
+      },
+      "methods": [
+        {
+          "name": "Retrieve",
+          "parameters": [
+            {
+              "name": "q",
+              "type": "string",
+              "mandatory": true
+            }
+          ],
+          "environment": "BE_GET",
+          "endpoint": "/search",
+          "response": "SearchResponse"
+        },
+        {
+          "name": "RetrieveTerms",
+          "parameters": [
+            {
+              "name": "termID",
+              "type": "string",
+              "mandatory": true
+            }
+          ],
+          "environment": "BE_GET",
+          "endpoint": "/search/term/:termID",
+          "response": "SearchTermResponse"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "object-class": "SearchTermResponse",
+      "base-class": "BEResponse",
+      "mapping": {
+        "data": {
+          "property": "listOfPoi",
+          "isArray": true,
+          "object-class": "Poi"
+        }
+      }
+    },
+    {
+      "object-class": "SearchResponse",
+      "base-class": "BEResponse",
+      "mapping": {
+        "data": {
+          "property": "listOfSearchTab",
+          "isArray": true,
+          "object-class": "SearchTab"
+        }
+      }
+    },
+    {
+      "object-class": "SearchTab",
+      "mapping": {
+        "name": {
+          "property": "name",
+          "type": "string"
+        },
+        "id": {
+          "property": "identifier",
+          "type": "string"
+        },
+        "suggestions": {
+          "property": "suggestions",
+          "isArray": true,
+          "object-class": "SearchSuggestionItem"
+        },
+        "poiList": {
+          "property": "listOfPoi",
+          "isArray": true,
+          "object-class": "Poi"
+        }
+      }
+    },
+    {
+      "object-class": "SearchSuggestionItem",
+      "mapping": {
+        "id": {
+          "property": "identifier",
+          "type": "string"
+        },
+        "contentType": {
+          "property": "contentType",
+          "type": "string"
+        },
+        "type": {
+          "property": "type",
+          "type": "string"
+        },
+        "name": {
+          "property": "name",
+          "type": "string"
+        },
+        "description": {
+          "property": "description",
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

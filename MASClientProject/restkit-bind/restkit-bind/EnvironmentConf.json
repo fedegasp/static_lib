@@ -1,0 +1,119 @@
+{
+  "configurations": [
+    {
+      "name": "STUB",
+      "log-level": "debug",
+      "default-environment": "BE",
+      "environments": [
+        {
+          "name": "BE",
+          "port": "8899",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://localhost",
+          "endpoint-mangling": "%@/resp.json"
+        },
+        {
+          "name": "BE_GET",
+          "port": "8899",
+          "http-method": "GET",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://localhost",
+          "endpoint-mangling": "%@/resp.json"
+        },
+        {
+          "name": "BE_PUT",
+          "port": "8899",
+          "http-method": "PUT",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://localhost",
+          "endpoint-mangling": "%@/resp.json",
+          "serialization-content-type": "application/json"
+        },
+        {
+          "name": "BE_DELETE",
+          "port": "8899",
+          "http-method": "DELETE",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://localhost",
+          "endpoint-mangling": "%@/resp.json"
+        }
+      ]
+    },
+    {
+      "name": "DEV",
+      "log-level": "debug",
+      "default-environment": "BE",
+      "environments": [
+        {
+          "name": "BE",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://www.example.com",
+          "--basic-auth": "bW9iaWxlYXBwOm1vYmFwcC4xLk9SUA==",
+          "endpoint-mangling": "/api%@?_format=json&lang="
+        },
+        {
+          "name": "BE_GET",
+          "http-method": "GET",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://www.example.com",
+          "--basic-auth": "bW9iaWxlYXBwOm1vYmFwcC4xLk9SUA==",
+          "endpoint-mangling": "/api%@?_format=json&lang="
+        },
+        {
+          "name": "BE_PUT",
+          "http-method": "PUT",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://www.example.com",
+          "endpoint-mangling": "/api%@?_format=json&lang=",
+          "serialization-content-type": "application/json"
+        },
+        {
+          "name": "BE_DELETE",
+          "http-method": "DELETE",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://www.example.com",
+          "endpoint-mangling": "/api%@?_format=json&lang="
+        }
+      ]
+    },
+    {
+      "name": "STAGING",
+      "log-level": "debug",
+      "default-environment": "BE",
+      "environments": [
+        {
+          "name": "BE",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://172.19.225.183",
+          "port": "8008",
+          "endpoint-mangling": "/example/api%@?_format=json&lang="
+        },
+        {
+          "name": "BE_GET",
+          "http-method": "GET",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://172.19.225.183",
+          "port": "8008",
+          "endpoint-mangling": "/example/api%@?_format=json&lang="
+        },
+        {
+          "name": "BE_PUT",
+          "http-method": "PUT",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://172.19.225.183",
+          "port": "8008",
+          "endpoint-mangling": "/example/api%@?_format=json&lang=",
+          "serialization-content-type": "application/json"
+        },
+        {
+          "name": "BE_DELETE",
+          "http-method": "DELETE",
+          "port": "8008",
+          "backend-provider": "restkit-provider-key",
+          "web-server": "http://172.19.225.183",
+          "endpoint-mangling": "/example/api%@?_format=json&lang="
+        }
+      ]
+    }
+  ]
+}

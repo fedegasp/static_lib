@@ -1,0 +1,19 @@
+//
+//  Config.debug.xcconfig
+//  MASClient
+//
+//  Created by Federico Gasperini on 27/10/16.
+//  Copyright © 2016 Accenture - MAS. All rights reserved.
+//
+
+#include "Common.xcconfig"
+
+// Clean build folder after change: shift+alt+cmd+k
+// If it doesn't change close and restart Xcode
+// Will be fixed with Xcode 8.3
+IK_ENVIRONMENT=STAGING
+
+INFOPLIST_FILE = MASClient/Info.Debug-AdHoc.plist
+
+PRODUCT_BUNDLE_IDENTIFIER = product.bundle.identifier.dev
+
