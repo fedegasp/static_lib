@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  CollectionTest
+//
+//  Created by Federico Gasperini on 22/05/17.
+//  Copyright © 2017 -. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#include "UICollectionViewCell+util.h"
+
+#endif /* PrefixHeader_pch */

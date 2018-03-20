@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B112D11F260B83000F8F40 /* MROverlaySlideTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B112CF1F260B83000F8F40 /* MROverlaySlideTransition.m */; };
+		B37B40211DC0B9C600BA126A /* UIView+nonModalBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B40021DC0B9C600BA126A /* UIView+nonModalBehaviour.m */; };
+		B37B40221DC0B9C600BA126A /* UIViewController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B40041DC0B9C600BA126A /* UIViewController+Transition.m */; };
+		B37B40251DC0B9C600BA126A /* MRTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B400A1DC0B9C600BA126A /* MRTransitionManager.m */; };
+		B37B40261DC0B9C600BA126A /* MRTransitionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B400C1DC0B9C600BA126A /* MRTransitionObject.m */; };
+		B37B40271DC0B9C600BA126A /* UIImageView+ContentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B40111DC0B9C600BA126A /* UIImageView+ContentMode.m */; };
+		B37B40281DC0B9C600BA126A /* MRPhotoBrowserAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B40131DC0B9C600BA126A /* MRPhotoBrowserAnimation.m */; };
+		B37B40291DC0B9C600BA126A /* MRPhotoBrowserScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B40151DC0B9C600BA126A /* MRPhotoBrowserScrollView.m */; };
+		B37B402A1DC0B9C600BA126A /* MRPhotoViewerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B40181DC0B9C600BA126A /* MRPhotoViewerButton.m */; };
+		B37B402B1DC0B9C600BA126A /* MRPhotoViewerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B401A1DC0B9C600BA126A /* MRPhotoViewerTransition.m */; };
+		B37B402C1DC0B9C600BA126A /* MRPopUpTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B401D1DC0B9C600BA126A /* MRPopUpTransition.m */; };
+		B37B402D1DC0B9C600BA126A /* MRSplashTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B37B40201DC0B9C600BA126A /* MRSplashTransition.m */; };
+		B37B402F1DC0B9E700BA126A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37B402E1DC0B9E700BA126A /* Foundation.framework */; };
+		B37B40311DC0B9EF00BA126A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37B40301DC0B9EF00BA126A /* UIKit.framework */; };
+		B3CEC5481DD65B29004F2192 /* UIView+nonModalBehaviour.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B40011DC0B9C600BA126A /* UIView+nonModalBehaviour.h */; };
+		B3CEC5491DD65B29004F2192 /* UIViewController+Transition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B40031DC0B9C600BA126A /* UIViewController+Transition.h */; };
+		B3CEC54A1DD65B29004F2192 /* lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3BD69161DC0DC6B006A404D /* lib.h */; };
+		B3CEC54B1DD65B29004F2192 /* MRTransitionManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B40091DC0B9C600BA126A /* MRTransitionManager.h */; };
+		B3CEC54C1DD65B29004F2192 /* MRTransitionObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B400B1DC0B9C600BA126A /* MRTransitionObject.h */; };
+		B3CEC54D1DD65B29004F2192 /* UIImageView+ContentMode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B40101DC0B9C600BA126A /* UIImageView+ContentMode.h */; };
+		B3CEC54E1DD65B29004F2192 /* MRPhotoBrowserAnimation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B40121DC0B9C600BA126A /* MRPhotoBrowserAnimation.h */; };
+		B3CEC54F1DD65B29004F2192 /* MRPhotoBrowserScrollView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B40141DC0B9C600BA126A /* MRPhotoBrowserScrollView.h */; };
+		B3CEC5501DD65B29004F2192 /* MRPhotoViewerButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B40171DC0B9C600BA126A /* MRPhotoViewerButton.h */; };
+		B3CEC5511DD65B29004F2192 /* MRPhotoViewerTransition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B40191DC0B9C600BA126A /* MRPhotoViewerTransition.h */; };
+		B3CEC5521DD65B29004F2192 /* MRPopUpTransition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B401C1DC0B9C600BA126A /* MRPopUpTransition.h */; };
+		B3CEC5531DD65B29004F2192 /* MRSplashTransition.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B37B401F1DC0B9C600BA126A /* MRSplashTransition.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B37B3FC41DC0B91C00BA126A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B3CEC5481DD65B29004F2192 /* UIView+nonModalBehaviour.h in CopyFiles */,
+				B3CEC5491DD65B29004F2192 /* UIViewController+Transition.h in CopyFiles */,
+				B3CEC54A1DD65B29004F2192 /* lib.h in CopyFiles */,
+				B3CEC54B1DD65B29004F2192 /* MRTransitionManager.h in CopyFiles */,
+				B3CEC54C1DD65B29004F2192 /* MRTransitionObject.h in CopyFiles */,
+				B3CEC54D1DD65B29004F2192 /* UIImageView+ContentMode.h in CopyFiles */,
+				B3CEC54E1DD65B29004F2192 /* MRPhotoBrowserAnimation.h in CopyFiles */,
+				B3CEC54F1DD65B29004F2192 /* MRPhotoBrowserScrollView.h in CopyFiles */,
+				B3CEC5501DD65B29004F2192 /* MRPhotoViewerButton.h in CopyFiles */,
+				B3CEC5511DD65B29004F2192 /* MRPhotoViewerTransition.h in CopyFiles */,
+				B3CEC5521DD65B29004F2192 /* MRPopUpTransition.h in CopyFiles */,
+				B3CEC5531DD65B29004F2192 /* MRSplashTransition.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		58B112CF1F260B83000F8F40 /* MROverlaySlideTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MROverlaySlideTransition.m; sourceTree = "<group>"; };
+		58B112D01F260B83000F8F40 /* MROverlaySlideTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MROverlaySlideTransition.h; sourceTree = "<group>"; };
+		B35EC6901DC26DBE00DAB537 /* Config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+		B35EC6911DC26DBE00DAB537 /* Config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.release.xcconfig; sourceTree = "<group>"; };
+		B37B3FC61DC0B91C00BA126A /* libMRTransitionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRTransitionManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37B40011DC0B9C600BA126A /* UIView+nonModalBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+nonModalBehaviour.h"; sourceTree = "<group>"; };
+		B37B40021DC0B9C600BA126A /* UIView+nonModalBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+nonModalBehaviour.m"; sourceTree = "<group>"; };
+		B37B40031DC0B9C600BA126A /* UIViewController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Transition.h"; sourceTree = "<group>"; };
+		B37B40041DC0B9C600BA126A /* UIViewController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Transition.m"; sourceTree = "<group>"; };
+		B37B40091DC0B9C600BA126A /* MRTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTransitionManager.h; sourceTree = "<group>"; };
+		B37B400A1DC0B9C600BA126A /* MRTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTransitionManager.m; sourceTree = "<group>"; };
+		B37B400B1DC0B9C600BA126A /* MRTransitionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTransitionObject.h; sourceTree = "<group>"; };
+		B37B400C1DC0B9C600BA126A /* MRTransitionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTransitionObject.m; sourceTree = "<group>"; };
+		B37B40101DC0B9C600BA126A /* UIImageView+ContentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ContentMode.h"; sourceTree = "<group>"; };
+		B37B40111DC0B9C600BA126A /* UIImageView+ContentMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ContentMode.m"; sourceTree = "<group>"; };
+		B37B40121DC0B9C600BA126A /* MRPhotoBrowserAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPhotoBrowserAnimation.h; sourceTree = "<group>"; };
+		B37B40131DC0B9C600BA126A /* MRPhotoBrowserAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPhotoBrowserAnimation.m; sourceTree = "<group>"; };
+		B37B40141DC0B9C600BA126A /* MRPhotoBrowserScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPhotoBrowserScrollView.h; sourceTree = "<group>"; };
+		B37B40151DC0B9C600BA126A /* MRPhotoBrowserScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPhotoBrowserScrollView.m; sourceTree = "<group>"; };
+		B37B40171DC0B9C600BA126A /* MRPhotoViewerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPhotoViewerButton.h; sourceTree = "<group>"; };
+		B37B40181DC0B9C600BA126A /* MRPhotoViewerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPhotoViewerButton.m; sourceTree = "<group>"; };
+		B37B40191DC0B9C600BA126A /* MRPhotoViewerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPhotoViewerTransition.h; sourceTree = "<group>"; };
+		B37B401A1DC0B9C600BA126A /* MRPhotoViewerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPhotoViewerTransition.m; sourceTree = "<group>"; };
+		B37B401C1DC0B9C600BA126A /* MRPopUpTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPopUpTransition.h; sourceTree = "<group>"; };
+		B37B401D1DC0B9C600BA126A /* MRPopUpTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPopUpTransition.m; sourceTree = "<group>"; };
+		B37B401F1DC0B9C600BA126A /* MRSplashTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRSplashTransition.h; sourceTree = "<group>"; };
+		B37B40201DC0B9C600BA126A /* MRSplashTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRSplashTransition.m; sourceTree = "<group>"; };
+		B37B402E1DC0B9E700BA126A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B37B40301DC0B9EF00BA126A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3BD69161DC0DC6B006A404D /* lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B37B3FC31DC0B91C00BA126A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37B40311DC0B9EF00BA126A /* UIKit.framework in Frameworks */,
+				B37B402F1DC0B9E700BA126A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B112CE1F260B58000F8F40 /* MROverlaySlideTransition */ = {
+			isa = PBXGroup;
+			children = (
+				58B112D01F260B83000F8F40 /* MROverlaySlideTransition.h */,
+				58B112CF1F260B83000F8F40 /* MROverlaySlideTransition.m */,
+			);
+			name = MROverlaySlideTransition;
+			sourceTree = "<group>";
+		};
+		B37B3FBD1DC0B91C00BA126A = {
+			isa = PBXGroup;
+			children = (
+				B35EC6901DC26DBE00DAB537 /* Config.debug.xcconfig */,
+				B35EC6911DC26DBE00DAB537 /* Config.release.xcconfig */,
+				B37B3FC81DC0B91C00BA126A /* MRTransitionManager */,
+				B37B3FC71DC0B91C00BA126A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B37B3FC71DC0B91C00BA126A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B37B3FC61DC0B91C00BA126A /* libMRTransitionManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B37B3FC81DC0B91C00BA126A /* MRTransitionManager */ = {
+			isa = PBXGroup;
+			children = (
+				B37B40321DC0BA0200BA126A /* Framework */,
+				B37B40001DC0B9C600BA126A /* Categories */,
+				B3BD69161DC0DC6B006A404D /* lib.h */,
+				B37B40091DC0B9C600BA126A /* MRTransitionManager.h */,
+				B37B400A1DC0B9C600BA126A /* MRTransitionManager.m */,
+				B37B400B1DC0B9C600BA126A /* MRTransitionObject.h */,
+				B37B400C1DC0B9C600BA126A /* MRTransitionObject.m */,
+				B37B400D1DC0B9C600BA126A /* Transitions */,
+			);
+			path = MRTransitionManager;
+			sourceTree = "<group>";
+		};
+		B37B40001DC0B9C600BA126A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B37B40011DC0B9C600BA126A /* UIView+nonModalBehaviour.h */,
+				B37B40021DC0B9C600BA126A /* UIView+nonModalBehaviour.m */,
+				B37B40031DC0B9C600BA126A /* UIViewController+Transition.h */,
+				B37B40041DC0B9C600BA126A /* UIViewController+Transition.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B37B400D1DC0B9C600BA126A /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				58B112CE1F260B58000F8F40 /* MROverlaySlideTransition */,
+				B37B400E1DC0B9C600BA126A /* MRPhotoBrowserTransition */,
+				B37B40161DC0B9C600BA126A /* MRPhotoViewer */,
+				B37B401B1DC0B9C600BA126A /* MRPopUpTransition */,
+				B37B401E1DC0B9C600BA126A /* SplashTransition */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		B37B400E1DC0B9C600BA126A /* MRPhotoBrowserTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B37B400F1DC0B9C600BA126A /* Categories */,
+				B37B40121DC0B9C600BA126A /* MRPhotoBrowserAnimation.h */,
+				B37B40131DC0B9C600BA126A /* MRPhotoBrowserAnimation.m */,
+				B37B40141DC0B9C600BA126A /* MRPhotoBrowserScrollView.h */,
+				B37B40151DC0B9C600BA126A /* MRPhotoBrowserScrollView.m */,
+			);
+			path = MRPhotoBrowserTransition;
+			sourceTree = "<group>";
+		};
+		B37B400F1DC0B9C600BA126A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B37B40101DC0B9C600BA126A /* UIImageView+ContentMode.h */,
+				B37B40111DC0B9C600BA126A /* UIImageView+ContentMode.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B37B40161DC0B9C600BA126A /* MRPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B37B40171DC0B9C600BA126A /* MRPhotoViewerButton.h */,
+				B37B40181DC0B9C600BA126A /* MRPhotoViewerButton.m */,
+				B37B40191DC0B9C600BA126A /* MRPhotoViewerTransition.h */,
+				B37B401A1DC0B9C600BA126A /* MRPhotoViewerTransition.m */,
+			);
+			path = MRPhotoViewer;
+			sourceTree = "<group>";
+		};
+		B37B401B1DC0B9C600BA126A /* MRPopUpTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B37B401C1DC0B9C600BA126A /* MRPopUpTransition.h */,
+				B37B401D1DC0B9C600BA126A /* MRPopUpTransition.m */,
+			);
+			path = MRPopUpTransition;
+			sourceTree = "<group>";
+		};
+		B37B401E1DC0B9C600BA126A /* SplashTransition */ = {
+			isa = PBXGroup;
+			children = (
+				B37B401F1DC0B9C600BA126A /* MRSplashTransition.h */,
+				B37B40201DC0B9C600BA126A /* MRSplashTransition.m */,
+			);
+			path = SplashTransition;
+			sourceTree = "<group>";
+		};
+		B37B40321DC0BA0200BA126A /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B37B40301DC0B9EF00BA126A /* UIKit.framework */,
+				B37B402E1DC0B9E700BA126A /* Foundation.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B37B3FC51DC0B91C00BA126A /* MRTransitionManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37B3FCF1DC0B91C00BA126A /* Build configuration list for PBXNativeTarget "MRTransitionManager" */;
+			buildPhases = (
+				B37B3FC21DC0B91C00BA126A /* Sources */,
+				B37B3FC31DC0B91C00BA126A /* Frameworks */,
+				B37B3FC41DC0B91C00BA126A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRTransitionManager;
+			productName = MRTransitionManager;
+			productReference = B37B3FC61DC0B91C00BA126A /* libMRTransitionManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B37B3FBE1DC0B91C00BA126A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Accenture - MAS";
+				TargetAttributes = {
+					B37B3FC51DC0B91C00BA126A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B37B3FC11DC0B91C00BA126A /* Build configuration list for PBXProject "MRTransitionManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B37B3FBD1DC0B91C00BA126A;
+			productRefGroup = B37B3FC71DC0B91C00BA126A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37B3FC51DC0B91C00BA126A /* MRTransitionManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B37B3FC21DC0B91C00BA126A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37B40261DC0B9C600BA126A /* MRTransitionObject.m in Sources */,
+				B37B40281DC0B9C600BA126A /* MRPhotoBrowserAnimation.m in Sources */,
+				B37B402B1DC0B9C600BA126A /* MRPhotoViewerTransition.m in Sources */,
+				B37B40271DC0B9C600BA126A /* UIImageView+ContentMode.m in Sources */,
+				B37B40291DC0B9C600BA126A /* MRPhotoBrowserScrollView.m in Sources */,
+				B37B40211DC0B9C600BA126A /* UIView+nonModalBehaviour.m in Sources */,
+				B37B402D1DC0B9C600BA126A /* MRSplashTransition.m in Sources */,
+				B37B40251DC0B9C600BA126A /* MRTransitionManager.m in Sources */,
+				B37B402C1DC0B9C600BA126A /* MRPopUpTransition.m in Sources */,
+				58B112D11F260B83000F8F40 /* MROverlaySlideTransition.m in Sources */,
+				B37B40221DC0B9C600BA126A /* UIViewController+Transition.m in Sources */,
+				B37B402A1DC0B9C600BA126A /* MRPhotoViewerButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B37B3FCD1DC0B91C00BA126A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B37B3FCE1DC0B91C00BA126A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B37B3FD01DC0B91C00BA126A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EC6901DC26DBE00DAB537 /* Config.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /MRTransitionManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /MRTransitionManager;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B37B3FD11DC0B91C00BA126A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EC6911DC26DBE00DAB537 /* Config.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /MRTransitionManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /MRTransitionManager;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B37B3FC11DC0B91C00BA126A /* Build configuration list for PBXProject "MRTransitionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37B3FCD1DC0B91C00BA126A /* Debug */,
+				B37B3FCE1DC0B91C00BA126A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37B3FCF1DC0B91C00BA126A /* Build configuration list for PBXNativeTarget "MRTransitionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37B3FD01DC0B91C00BA126A /* Debug */,
+				B37B3FD11DC0B91C00BA126A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B37B3FBE1DC0B91C00BA126A /* Project object */;
+}

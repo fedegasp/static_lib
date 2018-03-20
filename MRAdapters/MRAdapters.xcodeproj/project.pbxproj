@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A5BDB951EA8CAC800B2E2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5BDB941EA8CAC800B2E2CF /* Foundation.framework */; };
+		7A5BDB971EA8CACE00B2E2CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5BDB961EA8CACE00B2E2CF /* CoreGraphics.framework */; };
+		7A5BDB991EA8CB2100B2E2CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5BDB981EA8CB2100B2E2CF /* UIKit.framework */; };
+		7AB546981EA8C5F400516C22 /* NSArray+adapters.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA73311EA8C20500844668 /* NSArray+adapters.h */; };
+		7AB546991EA8C5F400516C22 /* MRArrayCollectionViewScrollAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA73331EA8C20500844668 /* MRArrayCollectionViewScrollAdapter.h */; };
+		7AB5469A1EA8C5F400516C22 /* MRArrayCollectionViewAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA73351EA8C20500844668 /* MRArrayCollectionViewAdapter.h */; };
+		7AB5469B1EA8C5F400516C22 /* MRArrayPickerViewAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA73371EA8C20500844668 /* MRArrayPickerViewAdapter.h */; };
+		7AB5469C1EA8C5F400516C22 /* MRArrayTableViewAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA73391EA8C20500844668 /* MRArrayTableViewAdapter.h */; };
+		7AB5469D1EA8C5F400516C22 /* MRArrayCollapsableTableViewAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA733B1EA8C20500844668 /* MRArrayCollapsableTableViewAdapter.h */; };
+		7AB5469E1EA8C5F400516C22 /* MRArrayCollapsableSelectionTableViewAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA733D1EA8C20500844668 /* MRArrayCollapsableSelectionTableViewAdapter.h */; };
+		7AB5469F1EA8C5F400516C22 /* MRExpandCellTableViewDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA733F1EA8C20500844668 /* MRExpandCellTableViewDelegate.h */; };
+		7AB546A01EA8C5F400516C22 /* MRArrayTableViewPaginatedAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA73411EA8C20500844668 /* MRArrayTableViewPaginatedAdapter.h */; };
+		7ACA73291EA8C13700844668 /* lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACA73261EA8C13700844668 /* lib.h */; };
+		7ACA73451EA8C20500844668 /* NSArray+adapters.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73321EA8C20500844668 /* NSArray+adapters.m */; };
+		7ACA73461EA8C20500844668 /* MRArrayCollectionViewScrollAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73341EA8C20500844668 /* MRArrayCollectionViewScrollAdapter.m */; };
+		7ACA73471EA8C20500844668 /* MRArrayCollectionViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73361EA8C20500844668 /* MRArrayCollectionViewAdapter.m */; };
+		7ACA73481EA8C20500844668 /* MRArrayPickerViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73381EA8C20500844668 /* MRArrayPickerViewAdapter.m */; };
+		7ACA73491EA8C20500844668 /* MRArrayTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA733A1EA8C20500844668 /* MRArrayTableViewAdapter.m */; };
+		7ACA734A1EA8C20500844668 /* MRArrayCollapsableTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA733C1EA8C20500844668 /* MRArrayCollapsableTableViewAdapter.m */; };
+		7ACA734B1EA8C20500844668 /* MRArrayCollapsableSelectionTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA733E1EA8C20500844668 /* MRArrayCollapsableSelectionTableViewAdapter.m */; };
+		7ACA734C1EA8C20500844668 /* MRExpandCellTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73401EA8C20500844668 /* MRExpandCellTableViewDelegate.m */; };
+		7ACA734D1EA8C20500844668 /* MRArrayTableViewPaginatedAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA73421EA8C20500844668 /* MRArrayTableViewPaginatedAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58ADACA81F7E58DE009662F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58ADACA41F7E58DE009662F2 /* MRComponents.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9BD10901F6AC8C00056A3F7;
+			remoteInfo = MRComponents;
+		};
+		58ADACAA1F7E5959009662F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58ADACA41F7E58DE009662F2 /* MRComponents.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D9BD107A1F6AC8C00056A3F7;
+			remoteInfo = MRComponents;
+		};
+		7A5BDB8B1EA8C91300B2E2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5BDB871EA8C91200B2E2CF /* MRTableView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B37B40551DC0BDB700BA126A;
+			remoteInfo = MRTableView;
+		};
+		7A5BDB8D1EA8C91800B2E2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A5BDB871EA8C91200B2E2CF /* MRTableView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B37B40541DC0BDB700BA126A;
+			remoteInfo = MRTableView;
+		};
+		7AB546941EA8C5DA00516C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB546901EA8C5DA00516C22 /* MRBase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B37B88911DC2316A00BCF510;
+			remoteInfo = MRBase;
+		};
+		7AB546961EA8C5E200516C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB546901EA8C5DA00516C22 /* MRBase.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B37B88901DC2316A00BCF510;
+			remoteInfo = MRBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7ACA73211EA8C13700844668 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7AB546981EA8C5F400516C22 /* NSArray+adapters.h in CopyFiles */,
+				7AB546991EA8C5F400516C22 /* MRArrayCollectionViewScrollAdapter.h in CopyFiles */,
+				7AB5469A1EA8C5F400516C22 /* MRArrayCollectionViewAdapter.h in CopyFiles */,
+				7AB5469B1EA8C5F400516C22 /* MRArrayPickerViewAdapter.h in CopyFiles */,
+				7AB5469C1EA8C5F400516C22 /* MRArrayTableViewAdapter.h in CopyFiles */,
+				7AB5469D1EA8C5F400516C22 /* MRArrayCollapsableTableViewAdapter.h in CopyFiles */,
+				7AB5469E1EA8C5F400516C22 /* MRArrayCollapsableSelectionTableViewAdapter.h in CopyFiles */,
+				7AB5469F1EA8C5F400516C22 /* MRExpandCellTableViewDelegate.h in CopyFiles */,
+				7AB546A01EA8C5F400516C22 /* MRArrayTableViewPaginatedAdapter.h in CopyFiles */,
+				7ACA73291EA8C13700844668 /* lib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		58ADACA41F7E58DE009662F2 /* MRComponents.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRComponents.xcodeproj; path = ../MRComponents/MRComponents.xcodeproj; sourceTree = "<group>"; };
+		7A5BDB871EA8C91200B2E2CF /* MRTableView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRTableView.xcodeproj; path = ../MRTableView/MRTableView.xcodeproj; sourceTree = "<group>"; };
+		7A5BDB941EA8CAC800B2E2CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A5BDB961EA8CACE00B2E2CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A5BDB981EA8CB2100B2E2CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AB546901EA8C5DA00516C22 /* MRBase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRBase.xcodeproj; path = ../MRBase/MRBase.xcodeproj; sourceTree = "<group>"; };
+		7ACA73231EA8C13700844668 /* libMRAdapters.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRAdapters.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACA73261EA8C13700844668 /* lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+		7ACA732F1EA8C19600844668 /* Config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+		7ACA73301EA8C19600844668 /* Config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.release.xcconfig; sourceTree = "<group>"; };
+		7ACA73311EA8C20500844668 /* NSArray+adapters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+adapters.h"; sourceTree = "<group>"; };
+		7ACA73321EA8C20500844668 /* NSArray+adapters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+adapters.m"; sourceTree = "<group>"; };
+		7ACA73331EA8C20500844668 /* MRArrayCollectionViewScrollAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRArrayCollectionViewScrollAdapter.h; sourceTree = "<group>"; };
+		7ACA73341EA8C20500844668 /* MRArrayCollectionViewScrollAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRArrayCollectionViewScrollAdapter.m; sourceTree = "<group>"; };
+		7ACA73351EA8C20500844668 /* MRArrayCollectionViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRArrayCollectionViewAdapter.h; sourceTree = "<group>"; };
+		7ACA73361EA8C20500844668 /* MRArrayCollectionViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRArrayCollectionViewAdapter.m; sourceTree = "<group>"; };
+		7ACA73371EA8C20500844668 /* MRArrayPickerViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRArrayPickerViewAdapter.h; sourceTree = "<group>"; };
+		7ACA73381EA8C20500844668 /* MRArrayPickerViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRArrayPickerViewAdapter.m; sourceTree = "<group>"; };
+		7ACA73391EA8C20500844668 /* MRArrayTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRArrayTableViewAdapter.h; sourceTree = "<group>"; };
+		7ACA733A1EA8C20500844668 /* MRArrayTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRArrayTableViewAdapter.m; sourceTree = "<group>"; };
+		7ACA733B1EA8C20500844668 /* MRArrayCollapsableTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRArrayCollapsableTableViewAdapter.h; sourceTree = "<group>"; };
+		7ACA733C1EA8C20500844668 /* MRArrayCollapsableTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRArrayCollapsableTableViewAdapter.m; sourceTree = "<group>"; };
+		7ACA733D1EA8C20500844668 /* MRArrayCollapsableSelectionTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRArrayCollapsableSelectionTableViewAdapter.h; sourceTree = "<group>"; };
+		7ACA733E1EA8C20500844668 /* MRArrayCollapsableSelectionTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRArrayCollapsableSelectionTableViewAdapter.m; sourceTree = "<group>"; };
+		7ACA733F1EA8C20500844668 /* MRExpandCellTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRExpandCellTableViewDelegate.h; sourceTree = "<group>"; };
+		7ACA73401EA8C20500844668 /* MRExpandCellTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRExpandCellTableViewDelegate.m; sourceTree = "<group>"; };
+		7ACA73411EA8C20500844668 /* MRArrayTableViewPaginatedAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRArrayTableViewPaginatedAdapter.h; sourceTree = "<group>"; };
+		7ACA73421EA8C20500844668 /* MRArrayTableViewPaginatedAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRArrayTableViewPaginatedAdapter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ACA73201EA8C13700844668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5BDB991EA8CB2100B2E2CF /* UIKit.framework in Frameworks */,
+				7A5BDB971EA8CACE00B2E2CF /* CoreGraphics.framework in Frameworks */,
+				7A5BDB951EA8CAC800B2E2CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58ADACA51F7E58DE009662F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58ADACA91F7E58DE009662F2 /* libMRComponents.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A5BDB881EA8C91200B2E2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A5BDB8C1EA8C91300B2E2CF /* libMRTableView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A5BDB931EA8CAC700B2E2CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5BDB981EA8CB2100B2E2CF /* UIKit.framework */,
+				7A5BDB961EA8CACE00B2E2CF /* CoreGraphics.framework */,
+				7A5BDB941EA8CAC800B2E2CF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AB546911EA8C5DA00516C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AB546951EA8C5DA00516C22 /* libMRBase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ACA731A1EA8C13700844668 = {
+			isa = PBXGroup;
+			children = (
+				7ACA732F1EA8C19600844668 /* Config.debug.xcconfig */,
+				7ACA73301EA8C19600844668 /* Config.release.xcconfig */,
+				58ADACA41F7E58DE009662F2 /* MRComponents.xcodeproj */,
+				7AB546901EA8C5DA00516C22 /* MRBase.xcodeproj */,
+				7A5BDB871EA8C91200B2E2CF /* MRTableView.xcodeproj */,
+				7ACA73251EA8C13700844668 /* MRAdapters */,
+				7ACA73241EA8C13700844668 /* Products */,
+				7A5BDB931EA8CAC700B2E2CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ACA73241EA8C13700844668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA73231EA8C13700844668 /* libMRAdapters.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ACA73251EA8C13700844668 /* MRAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA73261EA8C13700844668 /* lib.h */,
+				7ACA73311EA8C20500844668 /* NSArray+adapters.h */,
+				7ACA73321EA8C20500844668 /* NSArray+adapters.m */,
+				7ACA73331EA8C20500844668 /* MRArrayCollectionViewScrollAdapter.h */,
+				7ACA73341EA8C20500844668 /* MRArrayCollectionViewScrollAdapter.m */,
+				7ACA73351EA8C20500844668 /* MRArrayCollectionViewAdapter.h */,
+				7ACA73361EA8C20500844668 /* MRArrayCollectionViewAdapter.m */,
+				7ACA73371EA8C20500844668 /* MRArrayPickerViewAdapter.h */,
+				7ACA73381EA8C20500844668 /* MRArrayPickerViewAdapter.m */,
+				7ACA73391EA8C20500844668 /* MRArrayTableViewAdapter.h */,
+				7ACA733A1EA8C20500844668 /* MRArrayTableViewAdapter.m */,
+				7ACA733B1EA8C20500844668 /* MRArrayCollapsableTableViewAdapter.h */,
+				7ACA733C1EA8C20500844668 /* MRArrayCollapsableTableViewAdapter.m */,
+				7ACA733D1EA8C20500844668 /* MRArrayCollapsableSelectionTableViewAdapter.h */,
+				7ACA733E1EA8C20500844668 /* MRArrayCollapsableSelectionTableViewAdapter.m */,
+				7ACA733F1EA8C20500844668 /* MRExpandCellTableViewDelegate.h */,
+				7ACA73401EA8C20500844668 /* MRExpandCellTableViewDelegate.m */,
+				7ACA73411EA8C20500844668 /* MRArrayTableViewPaginatedAdapter.h */,
+				7ACA73421EA8C20500844668 /* MRArrayTableViewPaginatedAdapter.m */,
+			);
+			path = MRAdapters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ACA73221EA8C13700844668 /* MRAdapters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACA732C1EA8C13700844668 /* Build configuration list for PBXNativeTarget "MRAdapters" */;
+			buildPhases = (
+				7ACA731F1EA8C13700844668 /* Sources */,
+				7ACA73201EA8C13700844668 /* Frameworks */,
+				7ACA73211EA8C13700844668 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58ADACAB1F7E5959009662F2 /* PBXTargetDependency */,
+				7A5BDB8E1EA8C91800B2E2CF /* PBXTargetDependency */,
+				7AB546971EA8C5E200516C22 /* PBXTargetDependency */,
+			);
+			name = MRAdapters;
+			productName = MRAdapters;
+			productReference = 7ACA73231EA8C13700844668 /* libMRAdapters.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ACA731B1EA8C13700844668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Accenture;
+				TargetAttributes = {
+					7ACA73221EA8C13700844668 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A9QK5Z4XBH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7ACA731E1EA8C13700844668 /* Build configuration list for PBXProject "MRAdapters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7ACA731A1EA8C13700844668;
+			productRefGroup = 7ACA73241EA8C13700844668 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7AB546911EA8C5DA00516C22 /* Products */;
+					ProjectRef = 7AB546901EA8C5DA00516C22 /* MRBase.xcodeproj */;
+				},
+				{
+					ProductGroup = 58ADACA51F7E58DE009662F2 /* Products */;
+					ProjectRef = 58ADACA41F7E58DE009662F2 /* MRComponents.xcodeproj */;
+				},
+				{
+					ProductGroup = 7A5BDB881EA8C91200B2E2CF /* Products */;
+					ProjectRef = 7A5BDB871EA8C91200B2E2CF /* MRTableView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7ACA73221EA8C13700844668 /* MRAdapters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		58ADACA91F7E58DE009662F2 /* libMRComponents.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRComponents.a;
+			remoteRef = 58ADACA81F7E58DE009662F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7A5BDB8C1EA8C91300B2E2CF /* libMRTableView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRTableView.a;
+			remoteRef = 7A5BDB8B1EA8C91300B2E2CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7AB546951EA8C5DA00516C22 /* libMRBase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRBase.a;
+			remoteRef = 7AB546941EA8C5DA00516C22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ACA731F1EA8C13700844668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACA73471EA8C20500844668 /* MRArrayCollectionViewAdapter.m in Sources */,
+				7ACA73451EA8C20500844668 /* NSArray+adapters.m in Sources */,
+				7ACA73481EA8C20500844668 /* MRArrayPickerViewAdapter.m in Sources */,
+				7ACA73461EA8C20500844668 /* MRArrayCollectionViewScrollAdapter.m in Sources */,
+				7ACA734C1EA8C20500844668 /* MRExpandCellTableViewDelegate.m in Sources */,
+				7ACA734A1EA8C20500844668 /* MRArrayCollapsableTableViewAdapter.m in Sources */,
+				7ACA734D1EA8C20500844668 /* MRArrayTableViewPaginatedAdapter.m in Sources */,
+				7ACA734B1EA8C20500844668 /* MRArrayCollapsableSelectionTableViewAdapter.m in Sources */,
+				7ACA73491EA8C20500844668 /* MRArrayTableViewAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58ADACAB1F7E5959009662F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRComponents;
+			targetProxy = 58ADACAA1F7E5959009662F2 /* PBXContainerItemProxy */;
+		};
+		7A5BDB8E1EA8C91800B2E2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRTableView;
+			targetProxy = 7A5BDB8D1EA8C91800B2E2CF /* PBXContainerItemProxy */;
+		};
+		7AB546971EA8C5E200516C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRBase;
+			targetProxy = 7AB546961EA8C5E200516C22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7ACA732A1EA8C13700844668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ACA732B1EA8C13700844668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ACA732D1EA8C13700844668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACA732F1EA8C19600844668 /* Config.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9QK5Z4XBH;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7ACA732E1EA8C13700844668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACA73301EA8C19600844668 /* Config.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A9QK5Z4XBH;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ACA731E1EA8C13700844668 /* Build configuration list for PBXProject "MRAdapters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACA732A1EA8C13700844668 /* Debug */,
+				7ACA732B1EA8C13700844668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACA732C1EA8C13700844668 /* Build configuration list for PBXNativeTarget "MRAdapters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACA732D1EA8C13700844668 /* Debug */,
+				7ACA732E1EA8C13700844668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ACA731B1EA8C13700844668 /* Project object */;
+}

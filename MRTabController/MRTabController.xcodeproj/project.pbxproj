@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3CEC53F1DD65B0B004F2192 /* MRCollectionViewTab.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E42D771DC0EC34002CC394 /* MRCollectionViewTab.h */; };
+		B3CEC5401DD65B0B004F2192 /* MRTabViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E42D791DC0EC34002CC394 /* MRTabViewController.h */; };
+		B3CEC5411DD65B0B004F2192 /* TabContent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E42D7B1DC0EC34002CC394 /* TabContent.h */; };
+		B3CEC5421DD65B0B004F2192 /* lib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3E42D8C1DC0F086002CC394 /* lib.h */; };
+		B3E42D7E1DC0EC34002CC394 /* MRCollectionViewTab.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E42D781DC0EC34002CC394 /* MRCollectionViewTab.m */; };
+		B3E42D7F1DC0EC34002CC394 /* MRTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E42D7A1DC0EC34002CC394 /* MRTabViewController.m */; };
+		B3E42D801DC0EC34002CC394 /* TabContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E42D7C1DC0EC34002CC394 /* TabContent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B37B88D11DC240CD00BCF510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3E42D811DC0EDEA002CC394 /* MRCollectionView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B37B40831DC0CBAB00BA126A;
+			remoteInfo = MRCollectionView;
+		};
+		B3E42D851DC0EDEA002CC394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3E42D811DC0EDEA002CC394 /* MRCollectionView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B37B40841DC0CBAB00BA126A;
+			remoteInfo = MRCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3E42D691DC0EBFA002CC394 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B3CEC53F1DD65B0B004F2192 /* MRCollectionViewTab.h in CopyFiles */,
+				B3CEC5401DD65B0B004F2192 /* MRTabViewController.h in CopyFiles */,
+				B3CEC5411DD65B0B004F2192 /* TabContent.h in CopyFiles */,
+				B3CEC5421DD65B0B004F2192 /* lib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B35EC68C1DC26C7100DAB537 /* Config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.debug.xcconfig; sourceTree = "<group>"; };
+		B35EC68D1DC26C7100DAB537 /* Config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.release.xcconfig; sourceTree = "<group>"; };
+		B3E42D6B1DC0EBFA002CC394 /* libMRTabController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRTabController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E42D771DC0EC34002CC394 /* MRCollectionViewTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCollectionViewTab.h; sourceTree = "<group>"; };
+		B3E42D781DC0EC34002CC394 /* MRCollectionViewTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCollectionViewTab.m; sourceTree = "<group>"; };
+		B3E42D791DC0EC34002CC394 /* MRTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTabViewController.h; sourceTree = "<group>"; };
+		B3E42D7A1DC0EC34002CC394 /* MRTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTabViewController.m; sourceTree = "<group>"; };
+		B3E42D7B1DC0EC34002CC394 /* TabContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabContent.h; sourceTree = "<group>"; };
+		B3E42D7C1DC0EC34002CC394 /* TabContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabContent.m; sourceTree = "<group>"; };
+		B3E42D7D1DC0EC34002CC394 /* TabContent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabContent.xib; sourceTree = "<group>"; };
+		B3E42D811DC0EDEA002CC394 /* MRCollectionView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MRCollectionView.xcodeproj; path = ../MRCollectionView/MRCollectionView.xcodeproj; sourceTree = "<group>"; };
+		B3E42D8C1DC0F086002CC394 /* lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lib.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E42D681DC0EBFA002CC394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3E42D621DC0EBFA002CC394 = {
+			isa = PBXGroup;
+			children = (
+				B35EC68C1DC26C7100DAB537 /* Config.debug.xcconfig */,
+				B35EC68D1DC26C7100DAB537 /* Config.release.xcconfig */,
+				B3E42D811DC0EDEA002CC394 /* MRCollectionView.xcodeproj */,
+				B3E42D6D1DC0EBFA002CC394 /* MRTabController */,
+				B3E42D6C1DC0EBFA002CC394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E42D6C1DC0EBFA002CC394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E42D6B1DC0EBFA002CC394 /* libMRTabController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E42D6D1DC0EBFA002CC394 /* MRTabController */ = {
+			isa = PBXGroup;
+			children = (
+				B3E42D771DC0EC34002CC394 /* MRCollectionViewTab.h */,
+				B3E42D781DC0EC34002CC394 /* MRCollectionViewTab.m */,
+				B3E42D791DC0EC34002CC394 /* MRTabViewController.h */,
+				B3E42D7A1DC0EC34002CC394 /* MRTabViewController.m */,
+				B3E42D7B1DC0EC34002CC394 /* TabContent.h */,
+				B3E42D7C1DC0EC34002CC394 /* TabContent.m */,
+				B3E42D7D1DC0EC34002CC394 /* TabContent.xib */,
+				B3E42D8C1DC0F086002CC394 /* lib.h */,
+			);
+			path = MRTabController;
+			sourceTree = "<group>";
+		};
+		B3E42D821DC0EDEA002CC394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E42D861DC0EDEA002CC394 /* libMRCollectionView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E42D6A1DC0EBFA002CC394 /* MRTabController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E42D741DC0EBFA002CC394 /* Build configuration list for PBXNativeTarget "MRTabController" */;
+			buildPhases = (
+				B3E42D671DC0EBFA002CC394 /* Sources */,
+				B3E42D681DC0EBFA002CC394 /* Frameworks */,
+				B3E42D691DC0EBFA002CC394 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37B88D21DC240CD00BCF510 /* PBXTargetDependency */,
+			);
+			name = MRTabController;
+			productName = MRTabController;
+			productReference = B3E42D6B1DC0EBFA002CC394 /* libMRTabController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E42D631DC0EBFA002CC394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Accenture - MAS";
+				TargetAttributes = {
+					B3E42D6A1DC0EBFA002CC394 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B3E42D661DC0EBFA002CC394 /* Build configuration list for PBXProject "MRTabController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3E42D621DC0EBFA002CC394;
+			productRefGroup = B3E42D6C1DC0EBFA002CC394 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B3E42D821DC0EDEA002CC394 /* Products */;
+					ProjectRef = B3E42D811DC0EDEA002CC394 /* MRCollectionView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B3E42D6A1DC0EBFA002CC394 /* MRTabController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B3E42D861DC0EDEA002CC394 /* libMRCollectionView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMRCollectionView.a;
+			remoteRef = B3E42D851DC0EDEA002CC394 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E42D671DC0EBFA002CC394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E42D7E1DC0EC34002CC394 /* MRCollectionViewTab.m in Sources */,
+				B3E42D801DC0EC34002CC394 /* TabContent.m in Sources */,
+				B3E42D7F1DC0EC34002CC394 /* MRTabViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B37B88D21DC240CD00BCF510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRCollectionView;
+			targetProxy = B37B88D11DC240CD00BCF510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3E42D721DC0EBFA002CC394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3E42D731DC0EBFA002CC394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3E42D751DC0EBFA002CC394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EC68C1DC26C7100DAB537 /* Config.debug.xcconfig */;
+			buildSettings = {
+				MAS_LIB_PATH = "\"$(PROJECT_DIR)/..\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /MRTabController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /MRTabController;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B3E42D761DC0EBFA002CC394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35EC68D1DC26C7100DAB537 /* Config.release.xcconfig */;
+			buildSettings = {
+				MAS_LIB_PATH = "\"$(PROJECT_DIR)/..\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = /MRTabController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /MRTabController;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E42D661DC0EBFA002CC394 /* Build configuration list for PBXProject "MRTabController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E42D721DC0EBFA002CC394 /* Debug */,
+				B3E42D731DC0EBFA002CC394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E42D741DC0EBFA002CC394 /* Build configuration list for PBXNativeTarget "MRTabController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E42D751DC0EBFA002CC394 /* Debug */,
+				B3E42D761DC0EBFA002CC394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3E42D631DC0EBFA002CC394 /* Project object */;
+}
